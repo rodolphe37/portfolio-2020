@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const BackgroundError = () => {
   return (
     <div className="scene-error-game">
