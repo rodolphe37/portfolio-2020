@@ -88,7 +88,7 @@ const Games = () => {
               </div>
             </Container>
             <Flip bottom>
-              <Container className={click === false ? "games-frame" : "game-frame-blocked"}>
+              <div className={click === false ? "games-frame" : "game-frame-blocked"}>
                 <Iframe url={"https://nostalgic-austin-14c40f.netlify.app/"}
                   width="930px"
                   height="820px"
@@ -100,7 +100,7 @@ const Games = () => {
                   position="relative"
                   zIndex="50"
                 />
-              </Container>
+              </div>
             </Flip>
           </div>
         </React.Fragment>
