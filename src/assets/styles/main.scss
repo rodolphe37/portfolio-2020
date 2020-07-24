@@ -875,6 +875,9 @@ button.close {
   .modal-content {
     min-width: 171% !important;
   }
+  .footer-content {
+    margin-left: 5vw;
+  }
 }
 
 @media (max-width:1200px) {
@@ -887,11 +890,6 @@ button.close {
   .footer-content {
     margin-left: 0 !important;
   }
-
-
- .diamond-lapid {
-   margin-left: 32vw !important;
- }
 }
 
 .scroll-to-top {
