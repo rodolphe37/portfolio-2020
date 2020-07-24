@@ -23,7 +23,7 @@ const ModalGame = (props) => {
         </ModalBody>
         <ModalFooter>
 
-          <Button className="btn-danger" color="danger" onClick={toggle}>Cancel</Button>
+          <Button className="btn-danger" color="danger" onClick={toggle}>Fermer la fenêtre</Button>
         </ModalFooter>
       </Modal>
     </div>

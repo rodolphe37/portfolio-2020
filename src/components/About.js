@@ -15,7 +15,7 @@ const About = () => {
         <Fade>
           <div className="container-fluid bg-1 text-center" id="about">
             <h3 className="margin">Qui suis-je ?</h3>
-            <p style={{ fontWeight: '400', fontSize: '13px' }}>Je m'appelle Rodolphe Augusto</p>
+            <p style={{ fontWeight: '400', fontSize: '18px' }}>Je m'appelle Rodolphe Augusto</p>
             <img className="molecular-background" src={require("../assets/images/about/molecular.png")} alt="molecule" />
             <Fade right>
               <img src={require("../assets/images/presentation/perso-3b.png")} className="img-responsive img-circle margin" style={{ display: 'inline' }} alt="Bird" width={350} height={350} />
