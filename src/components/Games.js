@@ -16,7 +16,7 @@ const Games = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 750)
+    setTimeout(() => setLoading(false), 1350)
   }, [])
 
   const HandleClick = () => {

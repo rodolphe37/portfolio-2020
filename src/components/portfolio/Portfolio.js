@@ -25,7 +25,7 @@ const Portfolio = () => {
   const [openForm, setOpenForm] = useState(false)
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1000)
+    setTimeout(() => setLoading(false), 3200)
   }, [])
 
   // useEffect(() => { initGA(); }, []);
