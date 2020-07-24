@@ -1,23 +1,23 @@
 @import url("https://use.fontawesome.com/releases/v5.1.0/css/all.css");
-@import './shared/fonts';
+// @import './shared/fonts';
 @import './index';
 @import './header';
 @import './footer.css';
-@import './tarifs-prestations.css';
-@import './SearchPageStyle.css';
+// @import './tarifs-prestations.css';
+// @import './SearchPageStyle.css';
 @import './test.css';
 @import './features.css';
-@import './contact.css';
-@import './blogsTest.css';
-@import './errorPage.css';
+// @import './contact.css';
+// @import './blogsTest.css';
+// @import './errorPage.css';
 @import './skillsAbility.css';
-@import './sideMenu.css';
-@import './SearchPageStyle.css';
-@import './ranting-widget.css';
+// @import './sideMenu.css';
+// @import './SearchPageStyle.css';
+// @import './ranting-widget.css';
 @import './antAnimation.scss';
-@import './bubbleAnimation.scss';
-@import '../styles/fizzyButton.scss';
-@import '../styles/backgroundError.css';
+// @import './bubbleAnimation.scss';
+// @import '../styles/fizzyButton.scss';
+// @import '../styles/backgroundError.css';
 @import '../styles/infiniteLoopLoader.scss';
 @import '../styles/switchBarbe.scss';
 
@@ -420,6 +420,12 @@ button.close {
   position: absolute;
   margin-top: -44px;
   margin-left: 59%;
+}
+
+.img-default {
+  width: 900px;
+  vertical-align: top;
+  margin-left: -75px;
 }
 
 @media (max-width: 420px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
