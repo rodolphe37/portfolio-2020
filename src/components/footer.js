@@ -18,7 +18,7 @@ const Footer = () => {
               <h5 className="titl">Développeur</h5>
               <div className="list-unstyled text-small dev-list">
                 <a className="link-footer" href="https://github.com/rodolphe37" target="new">GitHub</a><br />
-                <a className="link-footer" href="https://www.linkedin.com/in/rodolphe-augusto-d%C3%A9veloppeur-full-stack-react-node-js-1a20b759/" target="new">Linkedin</a> / <a className="link-footer" href="/assets/pdf/cv-developpeur.pdf" target="new">Cv</a><br />
+                <a className="link-footer" href="https://www.linkedin.com/in/rodolphe-augusto-d%C3%A9veloppeur-full-stack-react-node-js-1a20b759/" target="new">Linkedin</a> / <a className="link-footer" href="https://thirsty-bhaskara-723079.netlify.app/assets/pdf/cv-developpeur.pdf" target="new">Cv</a><br />
                 <a className="link-footer codepen-link" href="https://codepen.io/rodcefim" target="new">CodePen</a> / <a className="link-footer codesandbox-link" href="https://codesandbox.io/u/rodolphe37" target="new">CodeSandBox</a>
               </div>
             </div>
