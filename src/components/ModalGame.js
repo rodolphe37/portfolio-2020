@@ -6,7 +6,6 @@ import Games from './Games';
 
 const ModalGame = (props) => {
   const {
-    buttonLabel,
     className
   } = props;
 
