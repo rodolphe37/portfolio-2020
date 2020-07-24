@@ -2,14 +2,11 @@ import React from 'react'
 import Iframe from 'react-iframe';
 import { Container } from 'reactstrap';
 import '../assets/styles/tooltip-style.css'
-// import Footer from '../components/footer';
-// import Header from '../components/shared/Header';
 import IncompatibleMess from '../components/IncompatibleMess';
 import BackgroundError from '../components/BackgroundError';
 import { useState, useEffect } from 'react';
 import Flip from 'react-reveal/Flip';
 import Slide from 'react-reveal/Slide';
-// import BaseLayout from '../components/layouts/BaseLayout';
 import InfiniteLoopLoader from '../components/InfiniteLoopLoader';
 
 
@@ -39,7 +36,6 @@ const Games = () => {
       {loading === false ? (
         <React.Fragment>
           <div className={click === true ? "game-page-static" : "game-page"}>
-            {/*{click === true ? "" : <Header />}*/}
             <Flip left ssrFadeout>
               <div
                 className={click === false ? "btn btn-secondary fixed-button" : "btn btn-secondary fixed-button selected"}
@@ -106,8 +102,6 @@ const Games = () => {
                 />
               </Container>
             </Flip>
-            {/*{click === true ? "" : <Footer />}*/}
-
           </div>
         </React.Fragment>
       ) : (
