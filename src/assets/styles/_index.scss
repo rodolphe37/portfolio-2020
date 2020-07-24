@@ -155,3 +155,43 @@
   background:-webkit-linear-gradient(top left,#F0F3F4 0,#A6ACAF 100%);
   border-radius: 5px;
 }
+
+
+@import url("https://use.fontawesome.com/releases/v5.1.0/css/all.css");
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  min-width: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.content-dev {
+  margin-top: -12vh;
+}
+
+.w3-col.m6 > h3 {
+  color: black;
+}
+
+.w3-col.m6 > h5 {
+  padding: 11px;
+}
+
+.text-white {
+  color: white;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #096fb9;
+  border-color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+}
