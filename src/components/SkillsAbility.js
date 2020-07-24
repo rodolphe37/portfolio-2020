@@ -7,7 +7,7 @@ const SkillsAbility = () => {
     <>
       <section className="skills-sec">
         <div className="container ability">
-          <h2 className="competences-ability"><i className="fas fa-laptop-code" /> Mes compétences &amp; capacités</h2>
+          <h2 className="competences-ability"><i className="fas fa-laptop-code" />Mes compétences &amp; capacités</h2>
           <h5>
             J'ai découvert le Javascript durant ma formation à la Wild Code School, tout au long du passage de mon titre de développeur web et mobile,
             je l'ai apprécié, et plus particulièrement React que j'adore car je peux exprimer mes capacités artistiques aisément avec cette technologie.
