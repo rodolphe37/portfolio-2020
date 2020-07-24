@@ -22,6 +22,7 @@ const ContactForm = () => {
 
       }, function (error) {
         console.log('FAILED...', error);
+        document.getElementById("contact2-form").reset();
       });
   }
 
