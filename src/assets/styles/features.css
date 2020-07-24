@@ -1,0 +1,112 @@
+.slide-in-blurred-bottom {
+	animation: slide-in-blurred-bottom 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.5s both;
+}
+
+ @keyframes slide-in-blurred-bottom {
+  0% {
+    transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    transform-origin: 50% 100%;
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scaleY(1) scaleX(1);
+    transform-origin: 50% 50%;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  color: white;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.rounded-circle {
+  border: 1px solid purple;
+}
+
+.categories {
+  color: white;
+}
+
+.col-md-5.order-md-1 {
+  margin-top: 114px;
+}
+
+.col-md-5 {
+  margin-top: 165px;
+}
+
+.btn:active {
+  border:transparent !important
+}
+
+
+.btn-secondary {
+  background-color: transparent;
+  border: transparent !important;
+
+}
+
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  background-color: transparent;
+  border-color: transparent !important;
+}
+
+.btn-secondary.focus, .btn-secondary:focus {
+  border-color: transparent;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  color: white;
+}
+
+.featurette-p {
+  color: white;
+}
+
+.blog-row {
+  padding-bottom: 45px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 4rem;
+  }
+}

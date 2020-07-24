@@ -1,0 +1,88 @@
+.pt-4 {
+  font-family: 'Montserrat', 'Helvetica' !important;
+  background-color: #1d2951;
+  color: white;
+  padding-top: 25px !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.titl {
+  list-style: none;
+  color: white !important;
+  font-weight: bold;
+}
+
+.mb-2, .my-2 {
+  margin-right: 15px;
+}
+
+.link-footer {
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.link-footer {
+  text-decoration: none;
+  color: white !important;
+
+}
+
+.brand-footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-content {
+  margin-left: 15vw;
+}
+
+.facebook-footer {
+  box-shadow: 0 0 4px !important;
+}
+
+.socials {
+  margin-left: -10vw;
+}
+
+.list-unstyled {
+  display: flex;
+  flex-direction: column;
+}
+
+.dev-list >a {
+  display: contents;
+}
+
+a.link-footer {
+  padding: 6px;
+}
+
+.topButton {
+  position: absolute;
+  bottom: 50px;
+  right: 25px;
+  z-index: 500;
+  opacity: .3;
+}
+
+.topButton:hover {
+  opacity: 1;
+}
+
+
+.topButton > img {
+  border-radius: 50%;
+}
+
+.topButton img:hover {
+  border-radius: 50%;
+  box-shadow: 1px 1px 9px white;
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .topButton {
+    bottom: 10px;
+  }
+}

@@ -1,0 +1,268 @@
+.blogsArticles {
+  color: white;
+}
+
+.blogsArticles > a {
+  color: white;
+}
+
+.blog-sidebar {
+color: black;
+}
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: 'Montserrat', 'Helvetica' !important;
+  color: white;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+.list-unstyled li > a {
+  font-weight: bold;
+
+}
+
+
+
+h4 {
+  color:#00aeef;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px grey;
+}
+
+h3 {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Helvetica' !important;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
+.img-card-blog-title {
+  width: 50%;
+}
+
+.col-md-8.blog-main {
+  color: white;
+}
+
+.cbl {
+  color: white !important;
+  width: 100% !important;
+  margin-left: -1px !important;
+}
+
+
+.read-more {
+  margin-left: 15px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: .5rem;
+}
+
+
+#toggler {
+  width: 45%;
+  border: 1px solid gray;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+
+.blog-card {
+  background-color: transparent;
+  padding: 15px;
+  width: 110%;
+  border: none;
+
+}
+
+.body-button-blog {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 4vh;
+  background: #1d2951;
+  width: 116%;
+  margin-top: -8px;
+  margin-left: -11px;
+  border: transparent;
+}
+a.components-button-blog {
+  position: relative;
+  display: inline-block;
+  padding: 11px 0;
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: 12px;
+  overflow: hidden;
+  transition: 0.2s;
+  height: 45px;
+}
+.components-button-blog:hover {
+  color: #fff !important;
+background: #fd7e14;
+padding: 11px 0;
+width: 116%;
+min-height: 40px;
+height: fit-content;
+box-shadow: 0 0 10px #ee9852, 0 0 40px #ee9852ff, 0 0 80px #e4d872;
+transition-delay: 1s;
+border: 1px solid #f3d9c3 !important;
+}
+.components-button-blog span {
+  position: absolute;
+  display: block;
+}
+.components-button-blog span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#fd7e14 );
+}
+.components-button-blog:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+.components-button-blog span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#fd7e14 );
+}
+.components-button-blog:hover span:nth-child(3) {
+  right: 100%;
+  transition: 0.5s;
+  transition-delay: 0.50s;
+}
+.components-button-blog span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#fd7e14 );
+}
+.components-button-blog:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+.components-button-blog span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#fd7e14 );
+}
+.components-button-blog:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+.list-blog {
+  background-color: transparent !important;
+  border:none !important;
+}
