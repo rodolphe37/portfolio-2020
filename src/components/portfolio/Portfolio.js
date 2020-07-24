@@ -17,28 +17,15 @@ import ContactForm from '../ContactForm';
 import About from '../About';
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
-// import About from '../About';
 
 
 const Portfolio = () => {
   const [loading, setLoading] = useState(true)
-  const [onClicked, setOnClicked] = useState(false);
   const [openForm, setOpenForm] = useState(false)
-
-
-  const HandleClicked = () => {
-    if (onClicked === false) {
-      setOnClicked(true)
-    } else {
-      setOnClicked(false)
-    }
-  }
-
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 1000)
   }, [])
-
 
   return (
     <>

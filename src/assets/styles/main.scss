@@ -1,23 +1,11 @@
 @import url("https://use.fontawesome.com/releases/v5.1.0/css/all.css");
-// @import './shared/fonts';
 @import './index';
 @import './header';
 @import './footer.css';
-// @import './tarifs-prestations.css';
-// @import './SearchPageStyle.css';
 @import './test.css';
 @import './features.css';
-// @import './contact.css';
-// @import './blogsTest.css';
-// @import './errorPage.css';
 @import './skillsAbility.css';
-// @import './sideMenu.css';
-// @import './SearchPageStyle.css';
-// @import './ranting-widget.css';
 @import './antAnimation.scss';
-// @import './bubbleAnimation.scss';
-// @import '../styles/fizzyButton.scss';
-// @import '../styles/backgroundError.css';
 @import '../styles/infiniteLoopLoader.scss';
 @import '../styles/switchBarbe.scss';
 
@@ -215,16 +203,7 @@ button.close {
   display: flex;
 }
 
-// .react-responsive-modal-closeButton {
-//   display: none !important;
-// }
-
-// .games-frame {
-//   margin-left: 7%;
-// }
-
 .games-frame {
-  /* margin-left: 0%; */
   margin-left: -17px !important;
 }
 
@@ -237,12 +216,6 @@ button.close {
   border-radius: 5px;
   border: 2px solid purple;
 }
-
-// .game-page {
-//   background-image: linear-gradient(45deg, #00aeef 0%, #096fb9 100%);
-//   width: 126%;
-//   margin-left: -28px;
-// }
 
 .col-md-8.blog-main {
   color: white;
@@ -259,7 +232,6 @@ button.close {
 
 .game-page-static {
   position: fixed;
-  // background-image: linear-gradient(45deg, #00aeef 0%, #096fb9 100%);
   width: 50%;
   margin-left: -28px;
   top: 5px;
@@ -527,7 +499,6 @@ button.close {
     width: 100%;
   }
   .react-responsive-modal-closeButton {
-    // top: 44px !important;
     right: 20px !important;
     color: white;
   }
@@ -535,11 +506,6 @@ button.close {
     margin-left: 17%;
     margin-bottom: 15px;
   }
-
-  // .react-responsive-modal-closeButton {
-  //   top: -40vh !important;
-  //   right: 0vw !important;
-  // }
 }
 
 
@@ -714,9 +680,6 @@ button.close {
   .col-lapidary {
     max-width: 104.333% !important;
   }
-  // .jewel-page {
-  //   font-size: 16px !important;
-  // }
   .text-muted2 {
     margin-left: 59%;
   }
@@ -746,11 +709,6 @@ button.close {
     margin-left: 53px;
     margin-bottom: 17px;
   }
-
-  // .react-responsive-modal-closeButton {
-  //   top: 8vh !important;
-  //   right: 0vw !important;
-  // }
 }
 
 @media (min-width: 766px) and (max-width:785px) {
@@ -772,10 +730,6 @@ button.close {
     width: 20% !important;
     margin-left: 40% !important;
   }
-  // .react-responsive-modal-closeButton {
-  //   top: 160px !important;
-  //   right: 53px;
-  // }
 
 }
 
@@ -812,9 +766,6 @@ button.close {
 }
 
 @media (max-width:1024px) {
-//   .port-navbar.port-default {
-//     margin-left: 1px;
-// }
   .games-frame, .game-frame-blocked {
     margin-left: 0;
   }
@@ -877,14 +828,12 @@ button.close {
   .conditional-game {
     display: block;
     height: 820px;
-    // width: 930px;
     background-color: blue($color: #000000);
     top: 10px;
   }
   .conditional-text {
     padding-top: 18vh;
     padding-bottom: 20vh;
-    // padding-left: 35px;
   }
 
   .conditional-text > h1, .conditional-text > h2 {
@@ -917,19 +866,10 @@ button.close {
       font-size: 9px;
     }
   }
-
-  // .react-responsive-modal-closeButton {
-  //   top: 21px;
-  //   right: -146px;
-  // }
-
-
 }
 
 @media (min-width: 1200px) {
-  // .games-frame {
-  //   margin-left: 15vw;
-  // }
+
   .title-contact {
     font-size: 28px !important;
 }
@@ -983,7 +923,6 @@ button.close {
 
   .port-navbar.port-default .port-navbar-brand> img {
     width: 100%;
-    // margin-left: -45px;
   }
 
   .port-navbar.port-default {
@@ -1014,7 +953,6 @@ button.close {
   }
 
   .modal-content {
-    // min-width: 135% !important;
     left: -43%;
     top: -25px;
   }
@@ -1041,14 +979,6 @@ button.close {
     width: 60%;
   }
 
-
-  // .games-frame, .game-frame-blocked {
-  //   // width:930px;
-  //   // height:820px;
-  //   margin-left: 0%;
-  // }
-
-
   .bgi {
     margin-left: 10%;
     margin-top: 10%;
@@ -1063,10 +993,6 @@ button.close {
   .port-navbar.port-default .port-navbar-link {
     font-size: 18px;
   }
-  // .react-responsive-modal-closeButton {
-  //   top: 33px !important;
-  //   right: -130px !important;
-  // }
 }
 
 @media (max-width: 1600px) {
@@ -1080,17 +1006,6 @@ button.close {
   .modal-content {
     min-width: 120%;
   }
-
-  // .game-page-static {
-  //   width: 68%;
-  // }
-
-//   .game-frame-blocked {
-//     margin-left: 0vw;
-// }
-  // .button-lapidart {
-  //   margin-top: 39px !important;
-  // }
 }
 
 @media (min-width:1600px) {

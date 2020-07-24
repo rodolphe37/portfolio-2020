@@ -8,11 +8,17 @@ import '../assets/styles/contactForm/util.css'
 const ContactForm = () => {
   const { register, handleSubmit } = useForm();
 
+  const ReloadForm = () => {
+    setTimeout(() => {
+      window.location.reload()
+    }, 1000)
+  }
 
   const onSubmit = (data) => {
     emailjs.send('gmail', 'portfolio', data, 'user_xKWRvlBTc0uT65Tf9D7wJ')
       .then(function (response) {
-        console.log('SUCCESS!', response.status, response.text) && window.location.reload();
+        console.log('SUCCESS!', response.status, response.text);
+        ReloadForm()
 
       }, function (error) {
         console.log('FAILED...', error);
