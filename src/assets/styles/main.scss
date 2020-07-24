@@ -954,11 +954,6 @@ button.close {
 
 @media (min-width: 1440px) {
 
-  div#carouselExampleIndicators {
-    width: 74%;
-    margin-left: 12%;
-  }
-
   .port-navbar.port-default .port-navbar-brand {
     margin-left: -60%;
     margin-right: 141px;
@@ -986,6 +981,11 @@ button.close {
   .port-navbar.port-default .port-navbar-link {
     font-size: 18px;
   }
+
+  .brand-footer {
+    font-size: 12px;
+    margin-left: -73vw;
+}
 }
 
 @media (min-width:1600px) {
