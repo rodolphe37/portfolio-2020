@@ -4,7 +4,7 @@ const ImportantsPointsPortfolio = () => {
 
   return (
     <div className="w3-container" style={{ padding: '128px 16px' }} id="importPoints">
-      <h3 className="w3-center">POINTS IMPORTANTS POUR UN DEVELOPPEUR ! </h3>
+      <h3 className="w3-center">POINTS IMPORTANTS POUR UN DEVELOPPEUR !</h3>
       <p className="w3-center w3-large">De mon point de vue seulement, bien sur ! </p>
       <div className="w3-row-padding w3-center" style={{ marginTop: '64px' }}>
         <div className="w3-quarter">
