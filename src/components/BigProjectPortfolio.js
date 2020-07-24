@@ -10,7 +10,7 @@ const BigProjectPortfolio = () => {
           <h3>AMANO-HILOT.FR</h3>
           <p>J'ai utilisé Next js pour conçevoir ce site, je l'ai développé en SSR (Server Side Rendering) afin d'optimiser les performances ainsi que le SEO (Réferencement) tout en restant dynamique pour la partie Frontend. Concernant la partie backend, j'ai utilisé Strapi qui est conçu avec React et Bootstrap (Bootstrap + api = Strapi) c'est un CMS basé sur le principe MVC ... mais en javascript. </p>
           <p>La partie Site, portfolio et blog n'est que la face visible de l'iceberg, en réalité l'application complète est réalisée via 7 applications différentes reliées les unes aux autres pour n'en former qu'une de manière apparente. Les 6 autres applications sont réalisées avec React js</p>
-          <h5>Le site sera très prochainement en ligne, le portfolio sur lequel vous surfez est la reproduction "Jamstack" d'une petite partie du site amano-hilot conçu avec React Js</h5>
+          <p>Le site sera très prochainement en ligne, le portfolio sur lequel vous surfez est la reproduction "Jamstack" d'une petite partie du site amano-hilot conçu avec React Js</p>
           <p><a href="#work" className="w3-button w3-black"><i className="fa fa-th">&nbsp;</i>Voir mes autres projets</a></p>
         </div>
         <div className="w3-col m6">
