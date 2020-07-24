@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   Collapse,
   Navbar,
@@ -26,24 +26,6 @@ const BsNavLink = (props) => {
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [loading, setLoading] = useState(true)
-  const [onClicked, setOnClicked] = useState(false);
-  const [openGame, setOpenGame] = useState(false)
-
-
-  const HandleClicked = () => {
-    if (onClicked === false) {
-      setOnClicked(true)
-    } else {
-      setOnClicked(false)
-    }
-  }
-
-
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 1000)
-  }, [])
-
   const toggle = () => setIsOpen(!isOpen);
 
   return (
@@ -79,13 +61,6 @@ const Header = () => {
                 </NavItem>
                 <NavItem>
                   <ModalGame />
-                  {/* <button className="w3-button w3-black" onClick={() => setOpenGame(true)} id="Games" style={{ margingTop: '25px' }}>Les Jeux!!!</button>
-                  <Modal classNames={{
-                    overlay: 'customOverlay',
-                    modal: 'customModal',
-                  }} open={openGame} onClose={() => setOpenGame(false)} center>
-                    <Games />
-                </Modal>*/}
                 </NavItem>
                 <NavItem className="port-navbar-item">
                   <div>
