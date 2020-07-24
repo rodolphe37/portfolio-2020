@@ -1,4 +1,5 @@
 @import url("https://use.fontawesome.com/releases/v5.1.0/css/all.css");
+@import './shared/fonts';
 @import './index';
 @import './header';
 @import './footer.css';
@@ -994,8 +995,11 @@ button.close {
   .modal-content {
     width: 120%;
   }
-  .games-frame, .game-frame-blocked {
-    padding-left: 0;
+  .games-frame {
+    padding-left: 0.1%;
+  }
+  .game-frame-blocked {
+    padding-left: 2.3%;
   }
 }
 
@@ -1012,7 +1016,13 @@ button.close {
 @media (min-width:1900px) {
   .games-frame, .game-frame-blocked {
     padding-left: 6% !important;
-}
+  }
+  .modal-content {
+    width: 113%;
+  }
+  .game-frame-blocked {
+    margin-top: 0%;
+  }
 }
 
 // About section
