@@ -9,7 +9,7 @@ const BaseLayout = (props) => {
 
   return (
     <>
-      <a name="top" href="top">''</a>
+      <a name="top" href="top">{''}</a>
       <Header />
       <div className="layout-container" id="home">
         <main className={`cover ${className}`}>
