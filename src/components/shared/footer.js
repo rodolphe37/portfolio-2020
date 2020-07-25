@@ -1,8 +1,8 @@
 import React from 'react';
-import '../assets/styles/footer.css'
+import '../../assets/styles/footer.css'
 import Zoom from 'react-reveal/Zoom';
-import AntAnimation from './AntAnimation';
-import pdf from '../assets/pdf/cv-developpeur.pdf'
+import AntAnimation from '../AntAnimation';
+import pdf from '../../assets/pdf/cv-developpeur.pdf'
 
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
       <footer className="pt-4 my-md-5 pt-md-5 border-top">
         <AntAnimation />
         <div className="topButton">
-          <a href="#home" ><img src={require("../assets/backtotop.png")} alt="back-to-top-button" /></a>
+          <a href="#home" ><img src={require("../../assets/backtotop.png")} alt="back-to-top-button" /></a>
         </div>
         <Zoom cascade>
           <div className="row footer-content">

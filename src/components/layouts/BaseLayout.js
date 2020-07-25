@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../shared/Header';
-import Footer from '../footer'
+import Footer from '../shared/footer'
 
 
 

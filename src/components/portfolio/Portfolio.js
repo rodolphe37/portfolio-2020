@@ -17,7 +17,6 @@ import ContactForm from '../ContactForm';
 import About from '../About';
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
-// import { initGA } from '../../App'
 
 
 const Portfolio = () => {
@@ -27,8 +26,6 @@ const Portfolio = () => {
   useEffect(() => {
     setTimeout(() => setLoading(false), 3200)
   }, [])
-
-  // useEffect(() => { initGA(); }, []);
 
   return (
     <>
