@@ -26,9 +26,9 @@ function App() {
         overlay
       >
         <span style={{ fontSize: "15px" }}>
-          <b>🍪 Nous utilisons des cookies pour améliorer votre expérience sur notre site 🍪</b>{" "}
+          <b><span role='img' aria-label="cookies">🍪 Ce site utilise des cookies pour améliorer votre expérience utilisateur 🍪</span></b>{" "}
           <br />
-            En continuant votre navigation sur ce site, vous acceptez l’utilisation de cookies pour mesurer l’audience de notre site et vous proposer des fonctionnalités sociales.&nbsp;&nbsp;&nbsp;&nbsp;
+            En continuant votre navigation, vous acceptez l’utilisation de cookies pour mesurer l’audience du site et vous proposer des fonctionnalités sociales.&nbsp;&nbsp;&nbsp;&nbsp;
                   </span>
       </CookieConsent>
       <Portfolio />
