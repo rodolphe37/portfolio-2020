@@ -45,7 +45,7 @@ const Games = () => {
                   <div data-tooltip="Afin d'avoir une bonne jouabilité, ainsi qu'une experience utilisateur optimale, &#xa; &#xa; veuillez fixer le contenu de la fenêtre en cliquant sur ce bouton. (Option supplémentaire : Vous pouvez mettre la fenêtre en plein écran avec la touche F11 afin d'améliorer encore plus votre confort)."
                     data-tooltip-location="bottom">
                     <span className="body-button">
-                      <a className="components-button">
+                      <a href="button" className="components-button">
                         <span className="particle-button"></span>
                         <span className="particle-button"></span>
                         <span className="particle-button"></span>
@@ -57,7 +57,7 @@ const Games = () => {
                   :
                   <div data-tooltip="Aprés avoir assouvi votre envie de jouer, &#xa; &#xa; cliquez de nouveau sur le bouton (ainsi que la touche F11 si vous avez choisi le plein écran) pour libérer la fenêtre et revenir à une navigation normale."
                     data-tooltip-location="bottom">
-                    <a className="components-button">
+                    <a href="button" className="components-button">
                       <span className="particle-button"></span>
                       <span className="particle-button"></span>
                       <span className="particle-button"></span>

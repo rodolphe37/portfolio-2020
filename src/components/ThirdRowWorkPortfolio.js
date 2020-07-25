@@ -53,7 +53,7 @@ const ThirdRowWorkPortfolio = () => {
           <img className="img-cursor w3-hover-opacity" src={require("../assets/images/developpeur/allGames.webp")} style={{ width: '100%', cursor: 'pointer' }} onClick={() => setOpen12(true)} alt="Site Jeux Amano-hilot" />
           <figcaption className="figure-caption text-white caption-work">Site Jeux Amano-hilot - (React-Spring/Express)</figcaption>
           <Modal open={open12} onClose={() => setOpen12(false)} center>
-            <a>
+            <a href="allGames">
               <figcaption className="figure-caption">Site Jeux Amano-hilot - (React-Spring/Express)</figcaption>
               <img className="img-cursor w3-hover-opacity" src={require("../assets/images/developpeur/allGames.gif")} style={{ width: '100%' }} onClick={() => setOpen12(true)} alt="Site Jeux Amano-hilot" />
             </a>
