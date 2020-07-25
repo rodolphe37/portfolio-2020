@@ -9,7 +9,6 @@
     "emailjs-com": "^2.4.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
-    "react-alert": "^7.0.2",
     "react-dom": "^16.13.1",
     "react-hook-form": "^6.0.7",
     "react-iframe": "^1.8.0",
@@ -17,6 +16,7 @@
     "react-reveal": "^1.2.2",
     "react-router": "^5.2.0",
     "react-scripts": "3.4.1",
+    "react-toastify": "^6.0.8",
     "react-typed": "^1.2.0",
     "reactstrap": "^8.5.1"
   },

@@ -2,6 +2,9 @@ import React from 'react';
 import { useForm } from 'react-hook-form'
 import emailjs from 'emailjs-com';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import '../assets/styles/contactForm/main.css';
 import '../assets/styles/contactForm/util.css'
 
@@ -11,26 +14,63 @@ const ContactForm = () => {
   const ReloadForm = () => {
     setTimeout(() => {
       window.location.reload()
-    }, 1000)
+    }, 2000)
   }
+
+  const ResetInput = () => {
+    setTimeout(() => {
+      document.getElementById("contact-form").reset();
+    }, 2500)
+  }
+
+
 
   const onSubmit = (data) => {
     emailjs.send('gmail', 'portfolio', data, 'user_xKWRvlBTc0uT65Tf9D7wJ')
       .then(function (response) {
         console.log('SUCCESS!', response.status, response.text);
+        toast.success('Email envoyé avec succès !!!', {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
         ReloadForm()
 
       }, function (error) {
         console.log('FAILED...', error);
-        document.getElementById("contact2-form").reset();
+        toast.error('Erreur, Email non envoyé !!!', {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+        ResetInput()
       });
   }
 
   return (
     <React.Fragment>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
       <div className="container-contact2" id="contact">
         <div className="wrap-contact2">
-          <form className="contact2-form validate-form" onSubmit={handleSubmit(onSubmit)}>
+          <form className="contact2-form validate-form" id="contact-form" onSubmit={handleSubmit(onSubmit)}>
             <span className="contact2-form-title">
               Contactez moi !!
         </span>
