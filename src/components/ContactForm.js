@@ -14,13 +14,13 @@ const ContactForm = () => {
   const ReloadForm = () => {
     setTimeout(() => {
       window.location.reload()
-    }, 2000)
+    }, 2500)
   }
 
   const ResetInput = () => {
     setTimeout(() => {
       document.getElementById("contact-form").reset();
-    }, 2500)
+    }, 3000)
   }
 
 
