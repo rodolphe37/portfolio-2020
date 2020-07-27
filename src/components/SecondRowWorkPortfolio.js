@@ -1,22 +1,24 @@
 import React from 'react';
 import { Modal } from 'react-responsive-modal';
+import { useTranslation } from 'react-i18next';
 
 const SecondRowWorkPortfolio = () => {
   const [openc, setOpenc] = React.useState(false)
   const [openc1, setOpenc1] = React.useState(false)
   const [openc2, setOpenc2] = React.useState(false)
   const [openc3, setOpenc3] = React.useState(false)
+  const { t } = useTranslation();
 
   return (
     <div className="w3-row-padding w3-section">
       <div className="w3-col l3 m6">
-        <div className="tooltip-dev" data-tooltip="Sort The Waste Game - (React/Electron). &#xa; &#xa; Le coeur du jeu est basé sur un timer conçu avec un CustomHook. Le jeu est conçu avec Electron, React (Hooks), React-beautiful-dnd, Spectre.css et Typescript. "
+        <div className="tooltip-dev" data-tooltip={`${t('secondRowDataTooltipTitle1')} ${t('secondRowDataTooltipContent1')}`}
           data-tooltip-location="top">
           <img className="img-cursor w3-hover-opacity" src={require("../assets/images/developpeur/sortwaste.webp")} style={{ width: '100%', cursor: 'pointer' }} onClick={() => setOpenc(true)} alt="Sort The Waste Game" />
-          <figcaption className="figure-caption text-white caption-work">Sort The Waste Game - (React/Electron).</figcaption>
+          <figcaption className="figure-caption text-white caption-work">{t('secondRowProjectName1')}</figcaption>
           <Modal open={openc} onClose={() => setOpenc(false)} center>
             <a href="https://github.com/rodolphe37/install-games-repository/blob/master/README.md" target="new">
-              <figcaption className="figure-caption">Sort The Waste Game - (React/Electron).</figcaption>
+              <figcaption className="figure-caption">{t('secondRowProjectName1')}</figcaption>
               <img className="img-cursor w3-hover-opacity" src={require("../assets/images/developpeur/waste.gif")} style={{ width: '100%' }} onClick={() => setOpenc(true)} alt="Sort The Waste Game" />
             </a>
           </Modal>
