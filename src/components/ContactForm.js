@@ -73,7 +73,7 @@ const ContactForm = () => {
           <form className="contact2-form validate-form" id="contact-form" onSubmit={handleSubmit(onSubmit)}>
             <span className="contact2-form-title">
               Contactez moi !!
-        </span>
+            </span>
 
             <div className="wrap-input2 validate-input" data-validate="Ce champ est requis">
               <input className="input2" type="text" name="nom" id="nom" ref={register} required />
