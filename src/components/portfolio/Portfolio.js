@@ -17,11 +17,13 @@ import BigProjectPortfolio from '../BigProjectPortfolio';
 import LittlePalmaresPortfolio from '../LittlePalmaresPortfolio';
 import MyWorksPortfolio from '../MyWorksPortfolio';
 import '../../assets/styles/w3c.css'
+import { useTranslation, withTranslation, Trans } from 'react-i18next';
 
 
 const Portfolio = () => {
   const [loading, setLoading] = useState(true)
   const [openForm, setOpenForm] = useState(false)
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 3200)

@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { Suspense } from 'react';
+import { useTranslation, withTranslation, Trans } from 'react-i18next';
 import './assets/styles/main.scss'
 import Portfolio from '../src/components/portfolio/Portfolio';
 import CookieConsent from "react-cookie-consent";
 
+
 function App() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = lng => {
+    i18n.changeLanguage(lng);
+  };
   return (
     <div className="App">
       <CookieConsent
@@ -25,7 +32,11 @@ function App() {
             En continuant votre navigation, vous acceptez l’utilisation de cookies pour mesurer l’audience du site et vous proposer des fonctionnalités sociales.&nbsp;&nbsp;&nbsp;&nbsp;
                   </span>
       </CookieConsent>
-      <Portfolio />
+      <span className="buttonLanguage" style={{ position: 'absolute', zIndex: '60' }}>
+        <button className="gamesButton btn btn-danger" style={{ marginLeft: '10px', marginRight: '15px' }} onClick={() => changeLanguage('fr')}>fr</button>
+        <button className="gamesButton btn btn-danger" onClick={() => changeLanguage('en')}>en</button>
+      </span>
+      <Portfolio t={t} />
     </div>
   );
 }
