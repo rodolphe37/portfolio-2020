@@ -483,14 +483,31 @@ button.close {
     margin-left: 66% !important;
     top: 22px;
   }
+
+  .wrap-contact2 {
+    background:none !important;
+  }
+
+  .contact2-form {
+    width: 96%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .customOverlay {
-    background: rgba(36, 123, 160, 0.7);
+    padding-left: 11px !important;
+    padding-right: 10px !important;
   }
   .customModal {
-    background: #b2dbbf;
-    max-width: 500px;
+    // background: #b2dbbf;
+    // max-width: 500px;
     width: 100%;
   }
+
+  .input2, .focus-input2 {
+    width: 97% !important;
+  }
+
   .react-responsive-modal-closeButton {
     right: 20px !important;
     color: white;
@@ -498,6 +515,11 @@ button.close {
   button#Games {
     margin-left: 17%;
     margin-bottom: 15px;
+  }
+
+  .gamesButton {
+    margin-bottom: 17px;
+    margin-left: 57px !important;
   }
 }
 
@@ -698,10 +720,13 @@ button.close {
   .alert {
     margin-left: -38px;
   }
+}
+
+@media (min-width:460px) and (max-width: 768px){
   .gamesButton {
-    margin-left: 53px;
-    margin-bottom: 17px;
-  }
+    margin-right: 27px;
+    margin-left: -2px !important;
+}
 }
 
 @media (min-width: 766px) and (max-width:785px) {
@@ -717,7 +742,7 @@ button.close {
   }
 
   .port-navbar.port-default .port-navbar-link {
-    font-size: 11px;
+    font-size: 8px;
   }
   .img-what {
     width: 20% !important;
@@ -755,6 +780,27 @@ button.close {
   }
   .alert {
     font-size: 19px !important;
+  }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+  #FrameGameId {
+    left: -64px;
+  }
+  .game-frame-blocked > #FrameGameId {
+    left: -12px;
+    top: 91px;
+  }
+  .port-navbar.port-default .port-navbar-link {
+    font-size: 8px;
+  }
+  .content-dev {
+    margin-top: -1vh;
+  }
+
+  .img-what {
+    width: 20% !important;
+    margin-left: 40% !important;
   }
 }
 

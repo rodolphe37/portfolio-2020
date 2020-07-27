@@ -1,4 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import BaseLayout from '../layouts/BaseLayout';
+import { Container } from 'reactstrap';
+import InfiniteLoopLoader from '../InfiniteLoopLoader';
+import ContactForm from '../ContactForm';
+import About from '../About';
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
@@ -10,13 +17,6 @@ import BigProjectPortfolio from '../BigProjectPortfolio';
 import LittlePalmaresPortfolio from '../LittlePalmaresPortfolio';
 import MyWorksPortfolio from '../MyWorksPortfolio';
 import '../../assets/styles/w3c.css'
-import BaseLayout from '../layouts/BaseLayout';
-import { Container } from 'reactstrap';
-import InfiniteLoopLoader from '../InfiniteLoopLoader';
-import ContactForm from '../ContactForm';
-import About from '../About';
-import 'react-responsive-modal/styles.css';
-import { Modal } from 'react-responsive-modal';
 
 
 const Portfolio = () => {
