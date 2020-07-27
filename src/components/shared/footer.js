@@ -11,7 +11,7 @@ const Footer = () => {
       <footer className="pt-4 my-md-5 pt-md-5 border-top">
         <AntAnimation />
         <div className="topButton">
-          <a href="#home" ><img src={require("../../assets/backtotop.png")} alt="back-to-top-button" /></a>
+          <a href="#home" ><img className="backTopButton" src={require("../../assets/backtotop.png")} alt="back-to-top-button" /></a>
         </div>
         <Zoom cascade>
           <div className="row footer-content">

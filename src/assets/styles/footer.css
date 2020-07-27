@@ -58,6 +58,10 @@ a.link-footer {
   padding: 6px;
 }
 
+.backTopButton {
+  max-width: 80%
+}
+
 .topButton {
   position: absolute;
   bottom: 50px;

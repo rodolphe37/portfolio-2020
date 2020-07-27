@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Iframe from 'react-iframe';
 import { Container } from 'reactstrap';
 import '../assets/styles/tooltip-style.css'
 import IncompatibleMess from '../components/IncompatibleMess';
 import BackgroundError from '../components/BackgroundError';
-import { useState, useEffect } from 'react';
 import Flip from 'react-reveal/Flip';
 import Slide from 'react-reveal/Slide';
 import InfiniteLoopLoader from '../components/InfiniteLoopLoader';
