@@ -77,6 +77,7 @@ const Header = () => {
                   <span className="buttonLanguage" style={{ position: 'absolute', zIndex: '60', cursor: 'pointer' }}>
                     <span className="tradButtonfr" style={{ marginLeft: '10px', marginRight: '15px' }} onClick={() => changeLanguage('fr')}><span role="img" aria-label="france flag">🇨🇵</span></span>
                     <span className="tradButtonen " onClick={() => changeLanguage('en')}><span role="img" aria-label="england flag">🇬🇧</span></span>
+                    <span className="tradButtonen " style={{ marginLeft: '10px' }} onClick={() => changeLanguage('pt')}><span role="img" aria-label="england flag">🇵🇹</span></span>
                   </span>
                 </NavItem>
               </Nav>
