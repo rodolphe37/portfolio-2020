@@ -521,12 +521,9 @@ button.close {
     margin-bottom: 17px;
     margin-left: 57px !important;
   }
-
-  span.buttonLanguage {
-    display: flex;
-    right: 20px;
-    top: 430px;
-  }
+  .buttonLanguage {
+    margin-left: 50px !important;
+}
 }
 
 
@@ -738,6 +735,12 @@ button.close {
   .gamesButton {
     margin-right: 27px;
     margin-left: -2px !important;
+  }
+  .port-navbar.port-default .port-navbar-link {
+    font-size: 6px !important;
+  }
+  .buttonLanguage {
+    margin-left: 9px !important;
 }
 }
 

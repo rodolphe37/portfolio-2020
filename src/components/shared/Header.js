@@ -37,16 +37,16 @@ const Header = () => {
   return (
     <div >
       <Navbar className="port-navbar port-default absolute" color="faded" light expand="md">
-        <Slide cascade top ssrFadeout>
-          <div className="container">
-            <NavbarBrand className="port-navbar-brand" href="/">
-              <h2 className="title_site">Rodolphe AUGUSTO</h2>
-              <img className="img-logo" src={require('../../assets/images/presentation/perso-5b.png')} alt="logo-amano-hilot" />
-              <h2 className="title_site" style={{ marginLeft: '27px' }}>PortFolio</h2>
-            </NavbarBrand>
-            <NavbarToggler onClick={toggle} />
-            <Collapse isOpen={isOpen} navbar>
-              <Nav className="mr-auto" navbar>
+        <div className="container">
+          <NavbarBrand className="port-navbar-brand" href="/">
+            <h2 className="title_site">Rodolphe AUGUSTO</h2>
+            <img className="img-logo" src={require('../../assets/images/presentation/perso-5b.png')} alt="logo-amano-hilot" />
+            <h2 className="title_site" style={{ marginLeft: '27px' }}>PortFolio</h2>
+          </NavbarBrand>
+          <NavbarToggler onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar>
+            <Nav className="mr-auto" navbar>
+              <Slide cascade top>
                 <NavItem className="port-navbar-item">
                   <BsNavLink route="/#home" title={t('homeTitle')} />
                 </NavItem>
@@ -73,17 +73,17 @@ const Header = () => {
                     <iframe title="sharing button" className="sharing-button" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.rodolphe-augusto.fr&layout=box_count&size=small&width=81&height=40&appId" width="81" height="40" style={{ border: "none", overflow: "hidden" }} scrolling="no" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                   </div>
                 </NavItem>
-                <NavItem>
-                  <span className="buttonLanguage" style={{ position: 'absolute', zIndex: '60', cursor: 'pointer' }}>
-                    <span className="tradButtonfr" style={{ marginLeft: '10px', marginRight: '15px' }} onClick={() => changeLanguage('fr')}><span role="img" aria-label="france flag">🇨🇵</span></span>
-                    <span className="tradButtonen " onClick={() => changeLanguage('en')}><span role="img" aria-label="england flag">🇬🇧</span></span>
-                    <span className="tradButtonpt " style={{ marginLeft: '10px' }} onClick={() => changeLanguage('pt')}><span role="img" aria-label="Português flag">🇵🇹</span></span>
-                  </span>
-                </NavItem>
-              </Nav>
-            </Collapse>
-          </div>
-        </Slide>
+              </Slide>
+              <NavItem className="buttonTranslate">
+                <span className="buttonLanguage" style={{ zIndex: '60', cursor: 'pointer' }}>
+                  <span className="tradButtonfr" style={{ marginRight: '15px' }} onClick={() => changeLanguage('fr')}><span role="img" aria-label="france flag">🇨🇵</span></span>
+                  <span className="tradButtonen " onClick={() => changeLanguage('en')}><span role="img" aria-label="england flag">🇬🇧</span></span>
+                  <span className="tradButtonpt " style={{ marginLeft: '10px' }} onClick={() => changeLanguage('pt')}><span role="img" aria-label="Português flag">🇵🇹</span></span>
+                </span>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </div>
       </Navbar>
       <style jsx="true">{`
         .nav-activity {
