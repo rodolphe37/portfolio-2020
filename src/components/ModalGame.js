@@ -19,13 +19,13 @@ const ModalGame = (props) => {
     <div>
       <Button className="gamesButton" color="danger" onClick={toggle}>{t('games')}</Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
-        <ModalHeader toggle={toggle}>Let's Play a Games</ModalHeader>
+        <ModalHeader toggle={toggle}>{t('playGames')}</ModalHeader>
         <ModalBody>
           <Games />
         </ModalBody>
         <ModalFooter>
 
-          <Button className="btn-danger" color="danger" onClick={toggle}>Fermer la fenêtre</Button>
+          <Button className="btn-danger" color="danger" onClick={toggle}>{t('closeGames')}</Button>
         </ModalFooter>
       </Modal>
     </div>

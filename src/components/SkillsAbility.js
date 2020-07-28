@@ -1,24 +1,23 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import { useTranslation } from 'react-i18next';
 
 const SkillsAbility = () => {
+  const { t } = useTranslation();
 
   return (
     <>
       <section className="skills-sec">
         <div className="container ability">
-          <h2 className="competences-ability"><i className="fas fa-laptop-code" />Mes compétences &amp; capacités</h2>
+          <h2 className="competences-ability"><i className="fas fa-laptop-code" />{`${t('skillsAbilityTitle1')} ${t('skillsAbilityTitle2')}`}</h2>
           <h5>
-            J'ai découvert le Javascript durant ma formation à la Wild Code School, tout au long du passage de mon titre de développeur web et mobile,
-            je l'ai apprécié, et plus particulièrement React que j'adore car je peux exprimer mes capacités artistiques aisément avec cette technologie.
+            {t('skillsAbilityContent1')}
             <br />
             <br />
-            Depuis, j'ai approfondis mes connaîssances en javascript, aussi,
-            j'ai découvert et apprécié travailler avec d'autres frameworks ou librairies comme Next ou Gatsby pour les sites (SEO friendly), React-Native ou Flutter\Dart
-            pour les versions mobiles, Ionic pour les applications Cross-plateformes, ainsi que Electron pour les versions Desktop.
+            {t('skillAbilityContent2')}
             <br />
             <br />
-            En développant constamment des projets personnels et en travaillant sur mes compétences, j'ai réussi à apprendre de nombreuses nouvelles technologies et concepts technique, cela m'a également aidé à savoir comment choisir le bon stack pour mes projets.
+            {t('skillsAbilityContent3')}
             <br />
           </h5>
           <ul className="skills-set">
@@ -81,7 +80,7 @@ const SkillsAbility = () => {
               </li>
               <li className="indvidual-skill">
                 <div className="skill_title">
-                  <span>Flutter / Dart</span>
+                  <span>Flutter</span>
                 </div>
                 <div className="barfiller">
                   <span className="fill" style={{ width: '60%' }} />

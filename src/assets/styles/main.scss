@@ -720,7 +720,7 @@ button.close {
     padding-left: 0px;
   }
   .conditional-text > h1, .conditional-text > h2 {
-    font-size: 12px;
+    font-size: 11px !important;
     max-width: 90%;
   }
   .alert {
@@ -790,9 +790,6 @@ button.close {
 
   .scene-error-game {
     top:23px !important;
-  }
-  .conditional-text > h1, .conditional-text > h2 {
-    font-size: 18px !important;
   }
   .alert {
     font-size: 19px !important;

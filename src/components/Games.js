@@ -7,12 +7,14 @@ import BackgroundError from '../components/BackgroundError';
 import Flip from 'react-reveal/Flip';
 import Slide from 'react-reveal/Slide';
 import InfiniteLoopLoader from '../components/InfiniteLoopLoader';
+import { useTranslation } from 'react-i18next';
 
 
 
 const Games = () => {
   const [click, setClick] = useState(false)
   const [loading, setLoading] = useState(true)
+  const { t } = useTranslation();
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 1350)
@@ -41,7 +43,7 @@ const Games = () => {
                 onClick={HandleClick}>
                 {click === false
                   ?
-                  <div data-tooltip="Afin d'avoir une bonne jouabilité, ainsi qu'une experience utilisateur optimale, &#xa; &#xa; veuillez fixer le contenu de la fenêtre en cliquant sur ce bouton. (Option supplémentaire : Vous pouvez mettre la fenêtre en plein écran avec la touche F11 afin d'améliorer encore plus votre confort)."
+                  <div data-tooltip={`${t('fixGamesTooltip1')}`}
                     data-tooltip-location="bottom">
                     <span className="body-button">
                       <a className="components-button">
@@ -49,20 +51,20 @@ const Games = () => {
                         <span className="particle-button"></span>
                         <span className="particle-button"></span>
                         <span className="particle-button"></span>
-                Fixer le jeux
-              </a>
+                        {t('fixGames')}
+                      </a>
                     </span>
                   </div>
                   :
-                  <div data-tooltip="Aprés avoir assouvi votre envie de jouer, &#xa; &#xa; cliquez de nouveau sur le bouton (ainsi que la touche F11 si vous avez choisi le plein écran) pour libérer la fenêtre et revenir à une navigation normale."
+                  <div data-tooltip={`${t('fixGamesTooltip2')}`}
                     data-tooltip-location="bottom">
                     <a className="components-button">
                       <span className="particle-button"></span>
                       <span className="particle-button"></span>
                       <span className="particle-button"></span>
                       <span className="particle-button"></span>
-                Débloquer le jeu
-              </a>
+                      {t('unlockGames')}
+                    </a>
 
                   </div>
                 }
@@ -78,11 +80,11 @@ const Games = () => {
 
               <div className="conditional-text">
                 <Slide top>
-                  <h1>Oups... La définition de votre écran ne supporte pas la taille d'affichage minimum des jeux.</h1>
-                  <h2>Votre expérience utilisateur n'étant pas possible...</h2>
+                  <h1>{t('errorGamesH1')}</h1>
+                  <h2>{t('errorGamesH2')}</h2>
                 </Slide>
                 <h3 className="alert">
-                  <IncompatibleMess />
+                  {t('errorGamesAlert')}
                 </h3>
               </div>
             </Container>
