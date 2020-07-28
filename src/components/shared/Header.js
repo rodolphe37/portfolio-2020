@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import {
   Collapse,
@@ -8,6 +7,7 @@ import {
   Nav,
   NavItem,
 } from 'reactstrap';
+import { useTranslation } from 'react-i18next';
 import 'react-responsive-modal/styles.css';
 import Slide from 'react-reveal/Slide';
 import ModalGame from '../ModalGame';
@@ -28,6 +28,12 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = lng => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <div >
       <Navbar className="port-navbar port-default absolute" color="faded" light expand="md">
@@ -42,19 +48,19 @@ const Header = () => {
             <Collapse isOpen={isOpen} navbar>
               <Nav className="mr-auto" navbar>
                 <NavItem className="port-navbar-item">
-                  <BsNavLink route="/#home" title="Accueil" />
+                  <BsNavLink route="/#home" title={t('homeTitle')} />
                 </NavItem>
                 <NavItem className="port-navbar-item">
-                  <BsNavLink route="#about" title="A Propos" />
+                  <BsNavLink route="#about" title={t('about')} />
                 </NavItem>
                 <NavItem className="port-navbar-item port-navbar-link">
-                  <BsNavLink route="#importPoints" title="Points Importants" />
+                  <BsNavLink route="#importPoints" title={t('importantPoints')} />
                 </NavItem>
                 <NavItem className="port-navbar-item">
-                  <BsNavLink route="#bigProject" title="Gros projet " />
+                  <BsNavLink route="#bigProject" title={t('bigProject')} />
                 </NavItem>
                 <NavItem className="port-navbar-item">
-                  <BsNavLink route="#work" title="Mon Travail " />
+                  <BsNavLink route="#work" title={t('myWorks')} />
                 </NavItem>
                 <NavItem className="port-navbar-item">
                   <BsNavLink route="#contact" title="Contact" />
@@ -64,7 +70,15 @@ const Header = () => {
                 </NavItem>
                 <NavItem className="port-navbar-item">
                   <div>
-                    <iframe title="sharing button" className="sharing-button" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.rodolphe-augusto.fr&layout=box_count&size=small&width=81&height=40&appId" width="81" height="40" style={{ border: "none", overflow: "hidden" }} scrolling="no" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>                </div>
+                    <iframe title="sharing button" className="sharing-button" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.rodolphe-augusto.fr&layout=box_count&size=small&width=81&height=40&appId" width="81" height="40" style={{ border: "none", overflow: "hidden" }} scrolling="no" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                  </div>
+                </NavItem>
+                <NavItem>
+                  <span className="buttonLanguage" style={{ position: 'absolute', zIndex: '60', cursor: 'pointer' }}>
+                    <span className="tradButtonfr" style={{ marginLeft: '10px', marginRight: '15px' }} onClick={() => changeLanguage('fr')}><span role="img" aria-label="france flag">🇨🇵</span></span>
+                    <span className="tradButtonen " onClick={() => changeLanguage('en')}><span role="img" aria-label="england flag">🇬🇧</span></span>
+                    <span className="tradButtonpt " style={{ marginLeft: '10px' }} onClick={() => changeLanguage('pt')}><span role="img" aria-label="Português flag">🇵🇹</span></span>
+                  </span>
                 </NavItem>
               </Nav>
             </Collapse>

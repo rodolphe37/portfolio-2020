@@ -521,6 +521,12 @@ button.close {
     margin-bottom: 17px;
     margin-left: 57px !important;
   }
+
+  span.buttonLanguage {
+    display: flex;
+    right: 20px;
+    top: 430px;
+  }
 }
 
 
@@ -714,12 +720,18 @@ button.close {
     padding-left: 0px;
   }
   .conditional-text > h1, .conditional-text > h2 {
-    font-size: 12px;
+    font-size: 11px !important;
     max-width: 90%;
   }
   .alert {
     margin-left: -38px;
   }
+  span.buttonLanguage {
+    display: flex;
+    right: 20px;
+    top: 430px;
+  }
+
 }
 
 @media (min-width:460px) and (max-width: 768px){
@@ -748,6 +760,10 @@ button.close {
     width: 20% !important;
     margin-left: 40% !important;
   }
+  .buttonLanguage {
+    right: 10px !important;
+    top: 45px !important;
+  }
 
 }
 
@@ -774,9 +790,6 @@ button.close {
 
   .scene-error-game {
     top:23px !important;
-  }
-  .conditional-text > h1, .conditional-text > h2 {
-    font-size: 18px !important;
   }
   .alert {
     font-size: 19px !important;
@@ -921,6 +934,10 @@ button.close {
   .footer-content {
     margin-left: 5vw !important;
   }
+  .buttonLanguage {
+    right: 10px !important;
+    top: 45px !important;
+  }
 }
 
 @media (max-width:1200px) {
@@ -1029,7 +1046,11 @@ button.close {
   .brand-footer {
     font-size: 12px;
     margin-left: -73vw;
-}
+  }
+  .buttonLanguage {
+    right: 20px !important;
+    top: 45px !important;
+  }
 }
 
 @media (min-width:1600px) {
