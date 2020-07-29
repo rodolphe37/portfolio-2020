@@ -42,7 +42,8 @@ const Games = () => {
                 onClick={HandleClick}>
                 {click === false
                   ?
-                  <div data-tooltip={`${t('fixGamesTooltip1')}`} data-tooltip-location="bottom">
+                  <div data-tooltip={`${t('fixGamesTooltip1')}`}
+                    data-tooltip-location="bottom">
                     <span className="body-button">
                       <a className="components-button">
                         <span className="particle-button"></span>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import '../assets/styles/fizzyButton.scss'
 
 const HeaderPortfolio = () => {
   const { t } = useTranslation();
@@ -11,8 +12,79 @@ const HeaderPortfolio = () => {
         <span className="w3-jumbo w3-hide-small">{t('title')}</span><br />
         <span className="w3-xxlarge w3-hide-large w3-hide-medium font-head">{t('title')}.</span><br />
         <span className="w3-large font-head">{t('credo')}</span>
-        <p><a href="#about" className="  w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off font-head">{t('titleButton')}</a></p>
+        <div className="button">
+          <input id="button" type="checkbox" role="button" />
+          <label htmlFor="button">
+            <div className="button_inner q">
+              <i className="l ion-log-in" />
+              <a href="#about" style={{ paddingTop: '25px', paddingBottom: '25px', paddingRight: '10px' }} className="t">{t('titleButton')}&raquo;</a>
+              <span>
+                <i className="tick ion-checkmark-round" />
+              </span>
+              <div className="b_l_quad">
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+                <div className="button_spots" />
+              </div>
+            </div>
+          </label>
+        </div>
       </div>
+      <style jsx='true'>{`
+      .button {
+        left: -9%;
+        bottom: -83px;
+    }
+      `}</style>
     </header>
   )
 }
