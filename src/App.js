@@ -1,16 +1,11 @@
 import React from 'react';
-// import { useTranslation } from 'react-i18next';
 import './assets/styles/main.scss'
 import Portfolio from '../src/components/portfolio/Portfolio';
 import CookieConsent from "react-cookie-consent";
 
 
 function App() {
-  // const { i18n } = useTranslation();
 
-  // const changeLanguage = lng => {
-  //   i18n.changeLanguage(lng);
-  // };
   return (
     <div className="App">
       <CookieConsent
@@ -32,10 +27,6 @@ function App() {
             En continuant votre navigation, vous acceptez l’utilisation de cookies pour mesurer l’audience du site et vous proposer des fonctionnalités sociales.&nbsp;&nbsp;&nbsp;&nbsp;
                   </span>
       </CookieConsent>
-      {/*<span className="buttonLanguage" style={{ position: 'absolute', zIndex: '60' }}>
-        <span className="gamesButton" style={{ marginLeft: '10px', marginRight: '15px' }} onClick={() => changeLanguage('fr')}><span role="img" aria-label="france flag">🇨🇵</span></span>
-        <span className="gamesButton " onClick={() => changeLanguage('en')}><span role="img" aria-label="england flag">🇬🇧</span></span>
-      </span>*/}
       <Portfolio />
     </div>
   );

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import Iframe from 'react-iframe';
 import { Container } from 'reactstrap';
 import '../assets/styles/tooltip-style.css'
-import IncompatibleMess from '../components/IncompatibleMess';
 import BackgroundError from '../components/BackgroundError';
 import Flip from 'react-reveal/Flip';
 import Slide from 'react-reveal/Slide';
@@ -43,8 +42,7 @@ const Games = () => {
                 onClick={HandleClick}>
                 {click === false
                   ?
-                  <div data-tooltip={`${t('fixGamesTooltip1')}`}
-                    data-tooltip-location="bottom">
+                  <div data-tooltip={`${t('fixGamesTooltip1')}`} data-tooltip-location="bottom">
                     <span className="body-button">
                       <a className="components-button">
                         <span className="particle-button"></span>
