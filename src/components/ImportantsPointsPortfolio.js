@@ -7,7 +7,7 @@ const ImportantsPointsPortfolio = () => {
   return (
     <div className="w3-container" style={{ padding: '128px 16px' }} id="importPoints">
       <h3 className="w3-center">{t('ImportantPointsTitle')}</h3>
-      <p className="w3-center w3-large subtitle-important-points">{t('ImportantPointsSubtitle')}</p>
+      <p className="w3-center w3-large">{t('ImportantPointsSubtitle')}</p>
       <div className="w3-row-padding w3-center" style={{ marginTop: '64px' }}>
         <div className="w3-quarter">
           <i className="fa fa-desktop w3-margin-bottom w3-jumbo w3-center" />
