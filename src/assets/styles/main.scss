@@ -800,6 +800,12 @@ button.close {
   }
 }
 
+@media (max-width:845px) {
+  .w3-large {
+    margin-left: 0 !important;
+  }
+}
+
 @media (min-width:768px) and (max-width:1024px) {
   #FrameGameId {
     left: -64px;
