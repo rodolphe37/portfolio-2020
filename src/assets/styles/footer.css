@@ -93,4 +93,7 @@ a.link-footer {
   .facebook-link-text {
     margin-left: -14.5vw !important;
   }
+  .brand-footer {
+    margin-left: -53px;
+}
 }
