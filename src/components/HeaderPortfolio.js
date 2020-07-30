@@ -81,7 +81,7 @@ const HeaderPortfolio = () => {
       </div>
       <style jsx='true'>{`
       .button {
-        left: -9%;
+        left: -35%;
         bottom: -83px;
     }
       `}</style>
