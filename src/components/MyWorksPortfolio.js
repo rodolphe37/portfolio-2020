@@ -30,7 +30,7 @@ const MyWorksPortfolio = () => {
       <p className="w3-center w3-large subtitle-work">{t('myWorksSubtitle')}</p>
       <p className="w3-center w3-large desc-work">{t('myWorkDescription1')}<br />{t('myWorkDescription2')}</p>
       <div className="w3-row-padding" style={{ marginTop: '64px' }}>
-        <Fade ssrFadeout>
+        <Fade>
           <FirstRowWorkPortfolio />
           <SecondRowWorkPortfolio />
           <ThirdRowWorkPortfolio />

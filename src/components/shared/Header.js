@@ -40,7 +40,7 @@ const Header = () => {
         <div className="container">
           <NavbarBrand className="port-navbar-brand" href="/">
             <h2 className="title_site">Rodolphe AUGUSTO</h2>
-            <img className="img-logo" src={require('../../assets/images/presentation/perso-5b.png')} alt="logo-amano-hilot" />
+            <img className="img-logo" src={require('../../assets/images/presentation/perso-5b.png')} alt="logo-portfolio" />
             <h2 className="title_site" style={{ marginLeft: '27px' }}>PortFolio</h2>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />

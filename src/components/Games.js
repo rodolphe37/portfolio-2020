@@ -36,7 +36,7 @@ const Games = () => {
       {loading === false ? (
         <React.Fragment>
           <div className={click === true ? "game-page-static" : "game-page"}>
-            <Flip left ssrFadeout>
+            <Flip left>
               <div
                 className={click === false ? "btn btn-secondary fixed-button" : "btn btn-secondary fixed-button selected"}
                 onClick={HandleClick}>

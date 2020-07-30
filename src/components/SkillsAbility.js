@@ -21,7 +21,7 @@ const SkillsAbility = () => {
             <br />
           </h5>
           <ul className="skills-set">
-            <Fade left cascade ssrFadeout>
+            <Fade left cascade>
               <li className="indvidual-skill">
                 <div className="skill_title">
                   <span><i className="fab fa-react"></i> React Js - (Jsx & Javascript (^es6))</span>

@@ -130,5 +130,8 @@
   "illustrator1": "Boutique RedBubble",
   "illustrator2": "Boutique Zazzle",
   "titleFooter3": "Auteur",
-  "facebookLinkText": "Page Facebook"
+  "facebookLinkText": "Page Facebook",
+  "cookieConsentTextButton": "J'ai compris",
+  "cookieConsentText1": "Ce site utilise des cookies pour améliorer votre expérience utilisateur",
+  "cookieConsentText2": "En continuant votre navigation, vous acceptez l’utilisation de cookies pour mesurer l’audience du site et vous proposer des fonctionnalités sociales."
 }

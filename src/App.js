@@ -2,15 +2,17 @@ import React from 'react';
 import './assets/styles/main.scss'
 import Portfolio from '../src/components/portfolio/Portfolio';
 import CookieConsent from "react-cookie-consent";
+import { useTranslation } from 'react-i18next';
 
 
 function App() {
+  const { t } = useTranslation();
 
   return (
     <div className="App">
       <CookieConsent
         location="bottom"
-        buttonText="J'ai compris"
+        buttonText={t('cookieConsentTextButton')}
         cookieName="RodolpheAugustoPortfolio"
         style={{
           background: "linear-gradient(90deg, #00aeef 0%, #096fb9 100%)",
@@ -22,9 +24,9 @@ function App() {
         overlay
       >
         <span style={{ fontSize: "15px" }}>
-          <b><span role='img' aria-label="cookies">🍪 Ce site utilise des cookies pour améliorer votre expérience utilisateur 🍪</span></b>{" "}
+          <b><span role='img' aria-label="cookies">🍪 {t('cookieConsentText1')} 🍪</span></b>{" "}
           <br />
-            En continuant votre navigation, vous acceptez l’utilisation de cookies pour mesurer l’audience du site et vous proposer des fonctionnalités sociales.&nbsp;&nbsp;&nbsp;&nbsp;
+          {t('cookieConsentText2')}&nbsp;&nbsp;&nbsp;&nbsp;
                   </span>
       </CookieConsent>
       <Portfolio />
