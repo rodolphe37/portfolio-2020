@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
             <div className="col-12 col-md socials">
               <div className="list-unstyled text-small">
-                <h5 style={{ marginLeft: '2.5vw' }}>{t('facebookLinkText')}</h5>
+                <h5 className="facebook-link-text" style={{ marginLeft: '2.5vw' }}>{t('facebookLinkText')}</h5>
                 <iframe title="facebook" className="facebook-footer" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Famanohilot%2F&tabs=timeline&width=250&height=120&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="250" height="125" style={{ border: "none", overflow: "hidden" }} scrolling="no" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
               </div>
               <br />

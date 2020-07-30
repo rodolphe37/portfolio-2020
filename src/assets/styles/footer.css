@@ -89,4 +89,8 @@ a.link-footer {
   .topButton {
     bottom: 10px;
   }
+
+  .facebook-link-text {
+    margin-left: -14.5vw !important;
+  }
 }
