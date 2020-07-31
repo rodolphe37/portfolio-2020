@@ -27,7 +27,7 @@ function App() {
           <b><span role='img' aria-label="cookies">🍪 {t('cookieConsentText1')} 🍪</span></b>{" "}
           <br />
           {t('cookieConsentText2')}&nbsp;&nbsp;&nbsp;&nbsp;
-                  </span>
+        </span>
       </CookieConsent>
       <Portfolio />
     </div>

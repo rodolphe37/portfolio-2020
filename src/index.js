@@ -5,11 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import "./i18n";
+import InfiniteLoopLoader from './components/InfiniteLoopLoader';
 
 ReactDOM.render(
-  <Suspense fallback="loading">
+  <Suspense fallback={() => <InfiniteLoopLoader />}>
     <App />
-  </Suspense>,
+  </Suspense >,
   document.getElementById('root')
 );
 
