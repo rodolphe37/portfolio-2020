@@ -8,7 +8,7 @@ import "./i18n";
 import InfiniteLoopLoader from './components/InfiniteLoopLoader';
 
 ReactDOM.render(
-  <Suspense fallback={() => <InfiniteLoopLoader />}>
+  <Suspense fallback={<InfiniteLoopLoader />}>
     <App />
   </Suspense >,
   document.getElementById('root')
