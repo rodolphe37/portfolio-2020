@@ -89,7 +89,7 @@ const Games = () => {
             </Container>
             <Flip bottom>
               <div className={click === false ? "games-frame" : "game-frame-blocked"}>
-                <Iframe url={"https://nostalgic-austin-14c40f.netlify.app/"}
+                <Iframe url={"https://amano-hilot-games.netlify.app/"}
                   width="930px"
                   height="820px"
                   frameBorder="1"
