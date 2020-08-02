@@ -264,8 +264,9 @@ textarea.input2 + .focus-input2::after {
 }
 
 .contact-img {
-  max-width: 30%;
+  width: 30%;
   margin-bottom: -6px;
+  margin-left:0 ! important
 }
 
 /*------------------------------------------------------------------
@@ -279,6 +280,12 @@ textarea.input2 + .focus-input2::after {
   .container-contact2 {
     width: 120%;
     margin-left: -48px;
+  }
+
+  .contact-img {
+    margin-left:0 ! important;
+    padding-bottom: 0 !important;
+    width:60%
   }
 }
 
