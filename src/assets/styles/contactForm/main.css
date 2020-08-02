@@ -263,6 +263,11 @@ textarea.input2 + .focus-input2::after {
   left: 0;
 }
 
+.contact-img {
+  max-width: 30%;
+  margin-bottom: -6px;
+}
+
 /*------------------------------------------------------------------
 [ Responsive ]*/
 

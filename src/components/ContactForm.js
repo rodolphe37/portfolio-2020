@@ -73,6 +73,8 @@ const ContactForm = () => {
         <div className="wrap-contact2">
           <form className="contact2-form validate-form" id="contact-form" onSubmit={handleSubmit(onSubmit)}>
             <span className="contact2-form-title">
+              <img src={require('../assets/images/write-me.jpg')} className="img-responsive img-circle margin contact-img" alt="write me" />
+              <br />
               {t('titleContactForm')}
             </span>
 
