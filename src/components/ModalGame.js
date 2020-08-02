@@ -24,7 +24,6 @@ const ModalGame = (props) => {
           <Games />
         </ModalBody>
         <ModalFooter>
-
           <Button className="btn-danger" color="danger" onClick={toggle}>{t('closeGames')}</Button>
         </ModalFooter>
       </Modal>
