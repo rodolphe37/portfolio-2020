@@ -47,7 +47,7 @@ const About = () => {
                 </Fade>
                 <Fade left>
                   <div className="row">
-                    <img className="img-responsive img-circle margin img-what what-i-iam" src={require("../assets/images/me-2.jpg")} alt="me without barber" />
+                    <img className="img-responsive img-circle margin img-what what-i-iam iam2" src={require("../assets/images/me-2.jpg")} alt="me without barber" />
                   </div>
                 </Fade>
               </div>
