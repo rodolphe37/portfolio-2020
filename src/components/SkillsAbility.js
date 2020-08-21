@@ -72,7 +72,7 @@ const SkillsAbility = () => {
                     <span className="fill" style={{ width: '35%' }} />
                   </div>
                 </li>
-                <h2 className="skill-section-title">{t('skillSection2')}</h2>
+                <h2 className="skill-section-title2">{t('skillSection2')}</h2>
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fab fa-react"></i> React Js - (Jsx)</span>
@@ -130,7 +130,7 @@ const SkillsAbility = () => {
                     <span className="fill" style={{ width: '45%' }} />
                   </div>
                 </li>
-                <h2 className="skill-section-title">{t('skillSection4')}</h2>
+                <h2 className="skill-section-title2">{t('skillSection4')}</h2>
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><img className="electron-logo" src={require('../assets/images/electron-logo.png')} alt="electron logo" /> Electron Js</span>
@@ -182,7 +182,7 @@ const SkillsAbility = () => {
                     <span className="fill" style={{ width: '70%' }} />
                   </div>
                 </li>
-                <h2 className="skill-section-title">{t('skillSection6')}</h2>
+                <h2 className="skill-section-title3">{t('skillSection6')}</h2>
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fas fa-fill-drip"></i>&nbsp;Gimp / Inkscape</span>

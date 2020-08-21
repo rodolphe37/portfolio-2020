@@ -93,6 +93,18 @@
     font-size: 18px;
     font-weight: bold;
     padding-bottom: 8px;
-    text-align: center;
+    margin-left: 25%;
+  }
+  .skill-section-title2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin-left: -4%;
+  }
+  .skill-section-title3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin-left: 5%;
   }
 }
