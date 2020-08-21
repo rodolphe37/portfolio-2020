@@ -24,6 +24,7 @@ const SkillsAbility = () => {
             <Fade left cascade>
               <div className="skill-title">
                 <h2 className="skill-section-title">{t('skillSection1')}</h2>
+                <br />
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fab fa-js-square"></i> Javascript (^es6)</span>
@@ -64,15 +65,8 @@ const SkillsAbility = () => {
                     <span className="fill" style={{ width: '45%' }} />
                   </div>
                 </li>
-                <li className="indvidual-skill">
-                  <div className="skill_title">
-                    <span><i className="fas fa-stream"></i>&nbsp;MongoDB</span>
-                  </div>
-                  <div className="barfiller">
-                    <span className="fill" style={{ width: '35%' }} />
-                  </div>
-                </li>
                 <h2 className="skill-section-title2">{t('skillSection2')}</h2>
+                <br />
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fab fa-react"></i> React Js - (Jsx)</span>
@@ -106,6 +100,7 @@ const SkillsAbility = () => {
                   </div>
                 </li>
                 <h2 className="skill-section-title">{t('skillSection3')}</h2>
+                <br />
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fab fa-node"></i> Node Js</span>
@@ -130,7 +125,24 @@ const SkillsAbility = () => {
                     <span className="fill" style={{ width: '45%' }} />
                   </div>
                 </li>
+                <li className="indvidual-skill">
+                  <div className="skill_title">
+                    <span><i className="fas fa-stream"></i>&nbsp;MongoDB</span>
+                  </div>
+                  <div className="barfiller">
+                    <span className="fill" style={{ width: '35%' }} />
+                  </div>
+                </li>
+                <li className="indvidual-skill">
+                  <div className="skill_title">
+                    <span><i className="fas fa-stream"></i>&nbsp;MySql</span>
+                  </div>
+                  <div className="barfiller">
+                    <span className="fill" style={{ width: '45%' }} />
+                  </div>
+                </li>
                 <h2 className="skill-section-title2">{t('skillSection4')}</h2>
+                <br />
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><img className="electron-logo" src={require('../assets/images/electron-logo.png')} alt="electron logo" /> Electron Js</span>
@@ -166,6 +178,7 @@ const SkillsAbility = () => {
                   </div>
                 </li>
                 <h2 className="skill-section-title">{t('skillSection5')}</h2>
+                <br />
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fab fa-github-square"></i> Git Workflow</span>
@@ -183,6 +196,7 @@ const SkillsAbility = () => {
                   </div>
                 </li>
                 <h2 className="skill-section-title3">{t('skillSection6')}</h2>
+                <br />
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fas fa-fill-drip"></i>&nbsp;Gimp / Inkscape</span>
