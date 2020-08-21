@@ -20,7 +20,7 @@ function App() {
           borderTop: "1px solid white"
         }}
         buttonStyle={{ background: "#fd7e14", color: "white", fontWeight: "bold", fontSize: "13px", textAlign: "center" }}
-        expires={10}
+        expires={15}
         overlay
       >
         <span style={{ fontSize: "15px" }}>
