@@ -88,3 +88,11 @@
   list-style: none;
 }
 
+@media (max-width:600px) {
+  .skill-section-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    text-align: center;
+  }
+}
