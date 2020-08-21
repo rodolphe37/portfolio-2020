@@ -40,6 +40,22 @@
 .skills-set li:nth-child(15) .fill {background: #e6b822;}
 .skills-set li:nth-child(16) .barfiller{border: 1px solid #eb4c9c;}
 .skills-set li:nth-child(16) .fill {background: #eb4c9c;}
+.skills-set li:nth-child(17) .barfiller{border: 1px solid #272981;}
+.skills-set li:nth-child(17) .fill {background: #272981;}
+.skills-set li:nth-child(18) .barfiller{border: 1px solid #02592e;}
+.skills-set li:nth-child(18) .fill {background: #02592e;}
+.skills-set li:nth-child(19) .barfiller{border: 1px solid #e07702;}
+.skills-set li:nth-child(19) .fill {background: #e07702;}
+.skills-set li:nth-child(20) .barfiller{border: 1px solid #f5e200;}
+.skills-set li:nth-child(20) .fill {background: #f5e200;}
+.skills-set li:nth-child(21) .barfiller{border: 1px solid #dd59ad;}
+.skills-set li:nth-child(21) .fill {background: #dd59ad;}
+.skills-set li:nth-child(22) .barfiller{border: 1px solid #21dfe6;}
+.skills-set li:nth-child(22) .fill {background: #21dfe6;}
+.skills-set li:nth-child(23) .barfiller{border: 1px solid #d83c78;}
+.skills-set li:nth-child(23) .fill {background: #d83c78;}
+.skills-set li:nth-child(24) .barfiller{border: 1px solid #87d132;}
+.skills-set li:nth-child(24) .fill {background: #87d132;}
 .ability {
   font-family: 'Montserrat', 'Helvetica';
 }
