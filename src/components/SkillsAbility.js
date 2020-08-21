@@ -23,7 +23,7 @@ const SkillsAbility = () => {
           <ul className="skills-set">
             <Fade left cascade>
               <div className="skill-title">
-                <h2>Langages</h2>
+                <h2>{t('skillSection1')}</h2>
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fab fa-js-square"></i> Javascript (^es6)</span>
@@ -72,7 +72,7 @@ const SkillsAbility = () => {
                     <span className="fill" style={{ width: '35%' }} />
                   </div>
                 </li>
-                <h2>Frameworks & Librairies frontend</h2>
+                <h2>{t('skillSection2')}</h2>
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fab fa-react"></i> React Js - (Jsx)</span>
@@ -105,7 +105,7 @@ const SkillsAbility = () => {
                     <span className="fill" style={{ width: '50%' }} />
                   </div>
                 </li>
-                <h2>Backend</h2>
+                <h2>{t('skillSection3')}</h2>
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fab fa-node"></i> Node Js</span>
@@ -130,7 +130,7 @@ const SkillsAbility = () => {
                     <span className="fill" style={{ width: '45%' }} />
                   </div>
                 </li>
-                <h2>Cross Plateformes & Mobiles</h2>
+                <h2>{t('skillSection4')}</h2>
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><img className="electron-logo" src={require('../assets/images/electron-logo.png')} alt="electron logo" /> Electron Js</span>
@@ -165,7 +165,7 @@ const SkillsAbility = () => {
                     <span className="fill" style={{ width: '50%' }} />
                   </div>
                 </li>
-                <h2>Collaboratif</h2>
+                <h2>{t('skillSection5')}</h2>
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fab fa-github-square"></i> Git Workflow</span>
@@ -182,7 +182,7 @@ const SkillsAbility = () => {
                     <span className="fill" style={{ width: '70%' }} />
                   </div>
                 </li>
-                <h2>Graphisme /Illustration</h2>
+                <h2>{t('skillSection6')}</h2>
                 <li className="indvidual-skill">
                   <div className="skill_title">
                     <span><i className="fas fa-fill-drip"></i>&nbsp;Gimp / Inkscape</span>
