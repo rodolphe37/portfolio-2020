@@ -50,9 +50,9 @@ const Portfolio = () => {
               <Bounce right>
                 <LittlePalmaresPortfolio />
               </Bounce>
-              <Fade>
+              <div className="fade-in">
                 <MyWorksPortfolio />
-              </Fade>
+              </div>
               <Slide bottom>
                 <div className="w3-container w3-light-grey w3-padding-64">
                   <div className="w3-row-padding">
