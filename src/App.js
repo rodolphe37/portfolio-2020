@@ -15,7 +15,7 @@ function App() {
         buttonText={t('cookieConsentTextButton')}
         cookieName="RodolpheAugustoPortfolio"
         style={{
-          background: "linear-gradient(90deg, #00aeef 0%, #096fb9 100%)",
+          background: "linear-gradient(180deg,#c4c4c9,#fff)",
           textShadow: " 2px 2px black",
           borderTop: "1px solid white"
         }}
