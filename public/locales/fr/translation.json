@@ -87,7 +87,7 @@
   "secondRowDataTooltipContent4": "Le site est conçu avec React, React-admin, chart.js, Redux, validator et Material UI Hooks pour le frontend. Pour le backend, bcryptjs, express, express-jwt, is-empty, jsonwebtoken, MySQl2, passport et sequelize comme ORM avec base de donnée MySQL",
   "secondRowProjectName4": "Gestion d'utilisateurs - (React-admin/Express).",
   "thirdRowDataTooltipTitle1": "Clone de Netflix - (React). ",
-  "thirdRowDataTooltipContent1": "Clône du celebre site Netflix, jeu conçu en React et Jquery",
+  "thirdRowDataTooltipContent1": "Clône du celebre site Netflix, site conçu en React et Jquery",
   "thirdRowProjectName1": "Clone de Netflix - (React)",
   "thirdRowDataTooltipTitle2": "My Météo App - (React). ",
   "thirdRowDataTooltipContent2": " Progressive Web App conçu avec React.",
