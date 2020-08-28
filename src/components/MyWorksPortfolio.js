@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
-import FirstRowWorkPortfolio from './FirstRowWorkPortfolio';
-import SecondRowWorkPortfolio from './SecondRowWorkPortfolio';
-import ThirdRowWorkPortfolio from './ThirdRowWorkPortfolio';
+import FirstRowWorkPortfolio from './myWoks/FirstRowWorkPortfolio';
+import SecondRowWorkPortfolio from './myWoks/SecondRowWorkPortfolio';
+import ThirdRowWorkPortfolio from './myWoks/ThirdRowWorkPortfolio';
 import { useTranslation } from 'react-i18next';
+import FourthRowWorkPortfolio from './myWoks/FourthRowWorkPortfolio';
 
 const MyWorksPortfolio = () => {
   const [onClicked, setOnClicked] = useState(false);
@@ -34,6 +35,7 @@ const MyWorksPortfolio = () => {
           <FirstRowWorkPortfolio />
           <SecondRowWorkPortfolio />
           <ThirdRowWorkPortfolio />
+          <FourthRowWorkPortfolio />
         </Fade>
       </div>
       <style jsx="true">{`
