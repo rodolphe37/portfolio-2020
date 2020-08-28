@@ -64,7 +64,7 @@ const FirstRowWorkPortfolio = () => {
           </Modal>
         </div>
       </div>
-    </div >
+    </div>
   )
 }
 
