@@ -27,6 +27,52 @@ html, body {
   background: #FF0000;
 }
 
+.fade-in {
+	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.info-perso {
+  width: 17%;
+  justify-content:center;
+  align-items: center;
+  margin:auto;
+  display:flex
+}
+.title-work-top {
+  margin-top: -10px
+}
+.subtitle-work {
+  font-size: 14px!important;
+  padding-top: 5px;
+  font-weight: bold
+}
+.desc-work {
+  font-style: italic;
+  font-size: 11px !important
+}
+
+
 .cards {
   background-color: white;
   margin-bottom: 27px;

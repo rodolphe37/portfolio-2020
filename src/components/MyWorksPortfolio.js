@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import FirstRowWorkPortfolio from './myWoks/FirstRowWorkPortfolio';
 import SecondRowWorkPortfolio from './myWoks/SecondRowWorkPortfolio';
 import ThirdRowWorkPortfolio from './myWoks/ThirdRowWorkPortfolio';
@@ -31,34 +31,13 @@ const MyWorksPortfolio = () => {
       <p className="w3-center w3-large subtitle-work">{t('myWorksSubtitle')}</p>
       <p className="w3-center w3-large desc-work">{t('myWorkDescription1')}<br />{t('myWorkDescription2')}</p>
       <div className="w3-row-padding" style={{ marginTop: '64px' }}>
-        <Fade>
+        <div className="fade-in">
           <FirstRowWorkPortfolio />
           <SecondRowWorkPortfolio />
           <ThirdRowWorkPortfolio />
           <FourthRowWorkPortfolio />
-        </Fade>
+        </div>
       </div>
-      <style jsx="true">{`
-        .info-perso {
-          width: 17%;
-          justify-content:center;
-          align-item: center;
-          margin:auto;
-          display:flex
-        },
-        .title-work-top {
-          margin-top: -10px
-        }
-        .subtitle-work {
-          font-size: 14px!important;
-          padding-top: 5px;
-          font-weight: bold
-        }
-        .desc-work {
-          font-style: italic;
-          font-size: 11px !important
-        }
-      `}</style>
     </div>
   )
 }
