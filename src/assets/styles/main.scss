@@ -243,10 +243,6 @@ button.close {
   display: flex;
 }
 
-// .games-frame {
-//   margin-left: -17px !important;
-// }
-
 .frame {
   margin-top: 8%;
 }
@@ -448,6 +444,9 @@ button.close {
 
 .phone-link {
   display: none;
+}
+.modal-body-phone.modal-body {
+  max-width: 41%;
 }
 
 @media (max-width: 420px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -937,7 +936,7 @@ button.close {
   }
   .footer-content {
     padding-top: 20px;
-}
+  }
 
 }
 
