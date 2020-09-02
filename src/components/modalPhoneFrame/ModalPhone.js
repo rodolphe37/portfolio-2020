@@ -15,7 +15,7 @@ const ModalPhone = (props) => {
         <Modal isOpen={modal} toggle={toggle} className="modal-phone">
           <br />
           <br />
-          <ModalBody toggle={toggle}>
+          <ModalBody className="modal-body-phone" toggle={toggle}>
             <PhoneFrame />
           </ModalBody>
         </Modal>

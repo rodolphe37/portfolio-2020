@@ -19,7 +19,7 @@ const PhoneFrame = () => {
             height="700px"
             frameBorder="1"
             scrolling="yes"
-            id="FrameGameId"
+            id="FramePhoneId"
             className="frame-phone"
             display="initial"
             position="relative"
