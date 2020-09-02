@@ -439,6 +439,17 @@ button.close {
   margin-left: -75px;
 }
 
+
+.modal-dialog.modal-phone > .modal-content {
+  background: none;
+  max-width: 375px;
+  border: inherit;
+}
+
+.phone-link {
+  display: none;
+}
+
 @media (max-width: 420px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .opt {
     display: none;
@@ -569,7 +580,13 @@ button.close {
   }
   .buttonLanguage {
     margin-left: 50px !important;
-}
+  }
+  .desktop-link {
+    display: none;
+  }
+  .phone-link {
+    display: inherit;
+  }
 }
 
 
@@ -791,7 +808,13 @@ button.close {
   }
   .buttonLanguage {
     margin-left: 9px !important;
-}
+  }
+  .desktop-link {
+    display: none;
+  }
+  .phone-link {
+    display: contents ;
+  }
 }
 
 @media (min-width: 766px) and (max-width:785px) {
@@ -912,6 +935,9 @@ button.close {
   .modal-content {
     width: 185% !important;
   }
+  .footer-content {
+    padding-top: 20px;
+}
 
 }
 
