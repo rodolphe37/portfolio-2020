@@ -448,6 +448,9 @@ button.close {
 .modal-body-phone.modal-body {
   max-width: 41%;
 }
+.modal-dialog.modal-phone {
+  max-width: 21%;
+}
 
 @media (max-width: 420px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .opt {
