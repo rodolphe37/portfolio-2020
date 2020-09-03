@@ -452,6 +452,28 @@ button.close {
   max-width: 21%;
 }
 
+
+.modal-dialog.modal-macbook > .modal-content {
+  background: none;
+  max-width: 375px;
+  border: inherit;
+}
+
+.modal-body-macbook.modal-body {
+  max-width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-dialog.modal-macbook {
+  max-width: 21%;
+}
+.buttonMyGithub.dropdown-menu.show {
+  width: 41%;
+  display: flex;
+}
+
+
 @media (max-width: 420px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .opt {
     display: none;

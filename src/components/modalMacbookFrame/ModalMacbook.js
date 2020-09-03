@@ -2,23 +2,23 @@
 
 import React, { useState } from 'react';
 import { Modal, ModalBody } from 'reactstrap';
-import PhoneFrame from './phoneFrame/PhoneFrame';
+import MacbookFrame from './macbookFrame/MacbookFrame';
 
-const ModalPhone = (props) => {
+const ModalMacbook = (props) => {
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
 
   return (
     <div>
       <div onClick={toggle} style={{ cursor: 'pointer', paddingBottom: '-25px' }}>
-        <b style={{ fontSize: '10px', marginLeft: '14%' }}>My Github sur Iphone</b>
+        <b style={{ fontSize: '10px', color: 'black', marginLeft: '14%' }}>My Github sur MacBook</b>
       </div>
       <div>
-        <Modal isOpen={modal} toggle={toggle} className="modal-phone">
+        <Modal isOpen={modal} toggle={toggle} className="modal-macbook">
           <br />
           <br />
-          <ModalBody className="modal-body-phone" toggle={toggle}>
-            <PhoneFrame />
+          <ModalBody className="modal-body-macbook" toggle={toggle}>
+            <MacbookFrame />
           </ModalBody>
         </Modal>
       </div>
@@ -26,4 +26,4 @@ const ModalPhone = (props) => {
   );
 }
 
-export default ModalPhone;
+export default ModalMacbook;

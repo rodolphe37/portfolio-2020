@@ -5,6 +5,12 @@ import AntAnimation from './AntAnimation';
 import pdf from '../../assets/pdf/cv-developpeur.pdf'
 import { useTranslation } from 'react-i18next';
 import ModalPhone from '../modalPhoneFrame/ModalPhone';
+import ModalMacbook from '../modalMacbookFrame/ModalMacbook';
+import {
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+} from 'reactstrap';
 
 
 const Footer = () => {
@@ -21,7 +27,32 @@ const Footer = () => {
             <div className="col-6 col-md">
               <h5 className="titl">{t('titleFooter1')}</h5>
               <div className="list-unstyled text-small dev-list">
-                <span className="link-footer desktop-link"><ModalPhone /></span>
+                <UncontrolledDropdown nav inNavbar className="uncontrol-nav desktop-link" style={{ textDecoration: 'none' }}>
+                  <DropdownToggle className="nav-link port-navbar-link" nav caret>
+                    {t('mygithub')}
+                  </DropdownToggle>
+                  <DropdownMenu className="buttonMyGithub" style={{ color: 'black' }}>
+                    <div style={{ display: 'flex', flexDirection: 'column' }}>
+                      <span className="link-footer-iphone desktop-link">
+                        <img
+                          className="mobile"
+                          style={{ width: '23%', marginLeft: '41%' }}
+                          src="https://icon-library.com/images/iphone-icon-png/iphone-icon-png-13.jpg"
+                          alt="iphone"
+                        />
+                        <ModalPhone />
+                      </span>
+                      <span className="link-footer-macbook desktop-link">
+                        <img className="laptop"
+                          style={{ width: '23%', marginLeft: '41%' }}
+                          src="https://image.flaticon.com/icons/svg/22/22791.svg"
+                          alt="macbook"
+                        />
+                        <ModalMacbook />
+                      </span>
+                    </div>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
                 <span className="phone-link"><a className="link-footer" href="https://my-github-pwa.netlify.app/" target="new">My Github</a></span>
                 <a className="link-footer" href="https://www.linkedin.com/in/rodolphe-augusto-d%C3%A9veloppeur-full-stack-react-node-js-1a20b759/" target="new">Linkedin</a> / <a className="link-footer" href={pdf} target="new">Cv</a><br />
                 <a className="link-footer codepen-link" href="https://codepen.io/rodcefim" target="new">CodePen</a> / <a className="link-footer codesandbox-link" href="https://codesandbox.io/u/rodolphe37" target="new">CodeSandBox</a>
