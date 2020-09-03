@@ -36,7 +36,7 @@ const Footer = () => {
                       <span className="link-footer-iphone desktop-link">
                         <img
                           className="mobile"
-                          style={{ width: '23%', marginLeft: '41%' }}
+                          style={{ width: '23%', marginLeft: '39%' }}
                           src="https://icon-library.com/images/iphone-icon-png/iphone-icon-png-13.jpg"
                           alt="iphone"
                         />
@@ -44,7 +44,7 @@ const Footer = () => {
                       </span>
                       <span className="link-footer-macbook desktop-link">
                         <img className="laptop"
-                          style={{ width: '23%', marginLeft: '41%' }}
+                          style={{ width: '23%', marginLeft: '39%' }}
                           src="https://image.flaticon.com/icons/svg/22/22791.svg"
                           alt="macbook"
                         />
