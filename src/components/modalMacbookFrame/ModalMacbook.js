@@ -10,8 +10,8 @@ const ModalMacbook = (props) => {
 
   return (
     <div>
-      <div onClick={toggle} style={{ cursor: 'pointer', paddingBottom: '-25px' }}>
-        <b style={{ fontSize: '10px', color: 'black', marginLeft: '14%' }}>My Github sur MacBook</b>
+      <div onClick={toggle} style={{ cursor: 'pointer', marginTop: '-14px' }}>
+        <b style={{ fontSize: '10px', color: 'black', marginLeft: '18%' }}>My Github sur MacBook</b>
       </div>
       <div>
         <Modal isOpen={modal} toggle={toggle} className="modal-macbook">

@@ -33,7 +33,7 @@ const Footer = () => {
                   </DropdownToggle>
                   <DropdownMenu className="buttonMyGithub" style={{ color: 'black' }}>
                     <div style={{ display: 'flex', flexDirection: 'column' }}>
-                      <span className="link-footer-iphone desktop-link">
+                      <span className="link-footer-iphone desktop-link iphone">
                         <img
                           className="mobile"
                           style={{ width: '23%', marginLeft: '39%' }}
@@ -42,7 +42,7 @@ const Footer = () => {
                         />
                         <ModalPhone />
                       </span>
-                      <span className="link-footer-macbook desktop-link">
+                      <span className="link-footer-macbook desktop-link desktop">
                         <img className="laptop"
                           style={{ width: '23%', marginLeft: '39%' }}
                           src="https://image.flaticon.com/icons/svg/22/22791.svg"

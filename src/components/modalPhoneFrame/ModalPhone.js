@@ -10,8 +10,8 @@ const ModalPhone = (props) => {
 
   return (
     <div>
-      <div onClick={toggle} style={{ cursor: 'pointer', paddingBottom: '-25px' }}>
-        <b style={{ fontSize: '10px', marginLeft: '14%' }}>My Github sur Iphone</b>
+      <div onClick={toggle} style={{ cursor: 'pointer', marginTop: '-9px' }}>
+        <b style={{ fontSize: '10px', marginLeft: '18%' }}>My Github sur Iphone</b>
       </div>
       <div>
         <Modal isOpen={modal} toggle={toggle} className="modal-phone">
