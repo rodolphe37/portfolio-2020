@@ -61,16 +61,16 @@ const Footer = () => {
             <div className="col-6 col-md">
               <h5 className="titl">{t('titleFooter2')}</h5>
               <div className="list-unstyled text-small">
-                <a href='https://www.redbubble.com/fr/people/rodolphe-a/shop?asc=u' target="new" className="link-footer">{t('illustrator1')}</a>
-                <a href="https://www.zazzle.fr/store/amano_hilot_shop" target="new" className="link-footer">{t('illustrator2')}</a>
+                <a href='https://www.redbubble.com/fr/people/rodolphe-a/shop?asc=u' target="new" className="link-footer" style={{ maxWidth: '39%' }}>{t('illustrator1')}</a>
+                <a href="https://www.zazzle.fr/store/amano_hilot_shop" target="new" className="link-footer" style={{ maxWidth: '29%' }}>{t('illustrator2')}</a>
               </div>
             </div>
             <div className="col-6 col-md">
               <h5 className="titl">{t('titleFooter3')}</h5>
               <div className="list-unstyled text-small">
-                <a href="https://www.thebookedition.com/fr/42-postures-de-yoga-et-etirements-p-368479.html" target="new" className="link-footer">TheBookEdition</a>
-                <a href="https://www.pinterest.fr/pin/351069733453849416/" target="new" className="link-footer">Pinterest</a>
-                <a className="link-footer" href="https://nouveautes-editeurs.bnf.fr/annonces.html?id_declaration=10000000499422&titre_livre=42_postures_de_yoga_et_%C3%A9tirements_ainsi_que_leurs_bienfaits_sur_la_sant%C3%A9" target="new">BNF</a>
+                <a href="https://www.thebookedition.com/fr/42-postures-de-yoga-et-etirements-p-368479.html" target="new" className="link-footer" style={{ maxWidth: '29%' }}>TheBookEdition</a>
+                <a href="https://www.pinterest.fr/pin/351069733453849416/" target="new" className="link-footer" style={{ maxWidth: '19%' }}>Pinterest</a>
+                <a className="link-footer" style={{ maxWidth: '12%' }} href="https://nouveautes-editeurs.bnf.fr/annonces.html?id_declaration=10000000499422&titre_livre=42_postures_de_yoga_et_%C3%A9tirements_ainsi_que_leurs_bienfaits_sur_la_sant%C3%A9" target="new">BNF</a>
               </div>
             </div>
             <div className="col-12 col-md socials">

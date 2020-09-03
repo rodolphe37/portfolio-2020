@@ -473,6 +473,11 @@ button.close {
   display: flex;
 }
 
+.dropdown-toggle {
+  white-space: nowrap;
+  max-width: 38%;
+}
+
 
 @media (max-width: 420px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .opt {
