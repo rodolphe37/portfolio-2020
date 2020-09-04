@@ -17,6 +17,9 @@
 **Github My Profile App - phone view**
 ![Phone-View](demo/portfolio21.jpg)
 
+**Github My Profile App -Landscape phone view**
+![Landscape-Phone-View](demo/portfolio21b.jpg)
+
 **Github My Profile App - macbook view**
 ![Macbook-view](demo/portfolio22.jpg)
 
