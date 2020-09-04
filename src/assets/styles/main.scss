@@ -478,6 +478,19 @@ button.close {
   max-width: 38%;
 }
 
+.header-modal-landscape.modal-header {
+  margin-top: -20%;
+  margin-bottom: 16%;
+  max-width: 50%;
+  border: none;
+  margin-left: 32%;
+}
+button.button-landscape.btn.btn-secondary {
+  background: whitesmoke;
+  display: flex;
+  padding-right: 41px;
+}
+
 
 @media (max-width: 420px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .opt {
