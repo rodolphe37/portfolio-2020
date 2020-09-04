@@ -7,7 +7,7 @@
 ### Pictures Demo
 
 **Home Page**
-![me](demo/me-2.jpg)
+<img align="center" height="70px" alt="rodolphe37 Github Stats" src="demo/me-2.jpg" />
 ![Accueil](demo/portfolio1.jpg)
 
 **contact Modal**
@@ -22,7 +22,8 @@
 **The games**
 ![Games](demo/portfolio23.jpg)
 
-![me](demo/perso-5b.png)
+***Nice day to you***
+!<img align="center" height="70px" alt="rodolphe37 Github Stats" src="demo/perso-5b.png" />
 
 ---
 
