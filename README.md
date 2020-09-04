@@ -7,7 +7,7 @@
 ### Pictures Demo
 
 **Home Page**
-<img align="right" height="250px" alt="rodolphe37 Github Stats" src="demo/me-2.jpg" />
+<img align="center" height="250px" alt="rodolphe37 Github Stats" src="demo/me-2.jpg" />
 ![Accueil](demo/portfolio1.jpg)
 
 **contact Modal**
