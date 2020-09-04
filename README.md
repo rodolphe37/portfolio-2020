@@ -3,6 +3,26 @@
 [![pas](https://img.shields.io/static/v1?&message=ProgressiveApp.Store&color=74b9ff&style=flat&label=Follow%20Portfolio%20developpeur%20at)](https://progressiveapp.store/pwa/Portfolio-developpeur)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4e181ec8-7f90-4593-ba75-527a919eee07/deploy-status)](https://app.netlify.com/sites/rodolphe-augusto/deploys)
 
+
+### Pictures Demo
+
+**Home Page**
+![Accueil](demo/portfolio1.jpg)
+
+**contact Modal**
+![Contact](demo/portfolio19.jpg)
+
+**Github My Profile App - phone view**
+![Phone-View](demo/portfolio21.jpg)
+
+**Github My Profile App - macbook view**
+![Macbook-view](demo/portfolio22.jpg)
+
+**The games**
+![Games](demo/portfolio23.jpg)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
