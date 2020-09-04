@@ -7,7 +7,7 @@
 ### Pictures Demo
 
 <br />
- <img align="right" height="150px" alt="rodolphe37 Github Stats" src="demo/me-2.jpg" />
+ <img align="left" height="150px" alt="rodolphe37 Github Stats" src="demo/me-2.jpg" />
 
 ![Accueil](demo/portfolio1.jpg)
 
