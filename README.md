@@ -7,6 +7,7 @@
 ### Pictures Demo
 
 **Home Page**
+![me](demo/me-2.jpg)
 ![Accueil](demo/portfolio1.jpg)
 
 **contact Modal**
@@ -20,6 +21,8 @@
 
 **The games**
 ![Games](demo/portfolio23.jpg)
+
+![me](demo/perso-5b.png)
 
 ---
 
