@@ -22,7 +22,7 @@
 ![Games](demo/portfolio23.jpg)
 
 ***Nice day to you***
-!<img align="center" margin-left="20px" height="200px" alt="rodolphe37 Github Stats" src="demo/perso-5b.png" />
+!<img align="center" height="200px" alt="rodolphe37 Github Stats" src="demo/perso-5b.png" />
 
 ---
 
